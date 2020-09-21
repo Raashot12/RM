@@ -1,0 +1,23 @@
+.parent--container{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 1rem;
+}
+
+.first-item-first{
+font-size:large;
+list-style: none;
+font-weight: bold;
+
+}
+.first-item-second{
+font-size:large;
+list-style: none;
+font-weight: bold;
+}
+
+
+
+
