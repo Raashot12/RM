@@ -5,23 +5,25 @@
 	bottom: 1rem;
 	cursor: pointer;
 }
- .topic{
-	color: #D29F66;
+ .topic h4{
 	margin: 0;
 	z-index: 90000;
 	position: relative;
 	cursor: pointer;
+	color:red
 }
-.text-element{
+.text-element .topic{
 	position: relative;
 	top: 3.5rem;
 	right: 1rem;
 	cursor: pointer;
-	
+
 }
 .text-element h4{
-	color: chartreuse;
-	
+	line-height: 16px;
+	font-family: 'Grandstander', cursive;
+	font-weight: 800;
+	color: black;
 }
 
 /* Media Query */

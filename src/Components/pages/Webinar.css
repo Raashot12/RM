@@ -17,10 +17,10 @@
 	top: 3.5rem;
 	right: 1rem;
 	cursor: pointer;
-	
+	outline-style: none;
 }
 .text-element h4{
-	color: chartreuse;
+	color: black;
 	
 }
 
@@ -32,6 +32,7 @@
 	left: 0.1rem;
 	bottom: 16rem;
 	cursor: pointer;
+	outline-style: none;
 }
 } 
 
@@ -41,6 +42,6 @@
 	top: 3.5rem;
 	right: -0.1rem;
 	cursor: pointer;
-	
+	outline-style: none;
 }
 }

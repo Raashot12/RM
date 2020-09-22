@@ -30,7 +30,7 @@
  display: flex;
  height: 3.5rem;
  cursor: pointer;
-box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
+box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
 }
 
 .parent-grid{
@@ -60,8 +60,7 @@ box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
   border-radius: 5px;
   padding: 20px;
   cursor: pointer;
-  box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
-
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem whitesmoke;	
 }
 
 }
@@ -140,6 +139,7 @@ box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
   border-radius: 5px;
   padding: 20px;
   cursor: pointer;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem whitesmoke;
 }
 }
 
@@ -186,12 +186,14 @@ box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
 
 .box {
   background-color:#fff;
-	box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
   color:black;
   border-radius: 5px;
   padding: 20px;
  display: flex;
   cursor: pointer;
+  box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem whitesmoke;
+  outline-style: none;
+  list-style-type: none;
 }
 }
 
@@ -200,11 +202,14 @@ box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
 	position: relative;
 	top: 2rem;
 	left:  7rem;
+	outline-style: none;
 }
 
 .sub-child{
 	position: relative;
 	bottom: 2.2rem;
+	outline-style: none;
+	list-style-type: none;
 }
 
 .sub-child img{
@@ -213,5 +218,6 @@ box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
 	/* bottom: 0.9rem; */
 	right: 1.61rem;
 	border-radius: 0.2rem;
+	outline-style: none;
 
 }

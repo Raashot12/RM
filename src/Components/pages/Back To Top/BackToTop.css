@@ -1,5 +1,5 @@
 .top-button{
-	background-color: #212121;
+	background-color:#75A1DE ;
 	list-style-type: none;
 	max-width: 100%;
 	width: 100%;
@@ -9,7 +9,7 @@
 	box-shadow: 1.3rem 0.3rem 0.3rem #aaa;
 }
 .top-button a{
-	color: wheat;
+	color: white;
 	justify-items: center;
 	text-decoration: none;
 	cursor: pointer;

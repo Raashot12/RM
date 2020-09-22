@@ -1,3 +1,8 @@
+:root{
+	color: var(--blue);
+}
+
+
 .parent--container{
 	display: flex;
 	justify-content: space-between;
@@ -10,6 +15,8 @@
 font-size:large;
 list-style: none;
 font-weight: bold;
+
+
 
 }
 .first-item-second{

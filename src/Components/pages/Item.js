@@ -8,8 +8,8 @@ export default styled.div`
   height: 400px;
   width: 100%;
   margin:0 15px;
-  box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
-  background-color: aliceblue;
+  box-shadow: 0.2rem 0.3rem 0.3rem 0.4rem #aaa;
+  background-color: white;
   position: relative;
   z-index:10000;
   outline:none;

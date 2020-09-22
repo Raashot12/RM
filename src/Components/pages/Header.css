@@ -1,5 +1,5 @@
 .top-header{
-	background:url(./meeting.svg);
+	background:url(./4380.jpg);
 	height: 25rem;
 	width: 100%;
 margin-top:0 ;
@@ -19,8 +19,9 @@ margin-top:0 ;
 	font: 900;
 	display: inline;
 	font-size: 3rem;
-	color: #1b065e;
-	transform: translate(50% ,50%);
+	letter-spacing: normal;
+	line-height: normal;
+	color:#050404;
 }
 
 
@@ -30,7 +31,8 @@ margin-top:0 ;
 .btn-header {
   padding: 8px 20px;
   border-radius: 4px;
-  outline: none;
+  
+  outline-style: none;
   border: none;
   height: 4rem;
   font-size: 2rem;
@@ -41,7 +43,6 @@ margin-top:0 ;
 	left: 8.1rem;
 	top: 21rem;
 width: 15rem;
-transform: translate(-50% -50%);
 }
 .btn-header:hover {
   padding: 6px 18px;
@@ -49,7 +50,6 @@ transform: translate(-50% -50%);
   background-color:  #1b065e;
   color: #fff;
   border-radius: 4px;
-  border: 2px solid var(--primary);
   transition: all 0.3s ease-out;
 }
 
@@ -63,7 +63,7 @@ transform: translate(-50% -50%);
 	font: 200;
 	display: inline;
 	font-size: 3rem;
-	color: #1b065e;
+	color: #050404;
 	transform: translate(50% ,50%);
 }
 
@@ -93,7 +93,6 @@ transform: translate(-50% -50%);
   background-color:  #1b065e;
   color: #fff;
   border-radius: 4px;
-  border: 2px solid var(--primary);
   transition: all 0.3s ease-out;
 }
 }
@@ -108,8 +107,7 @@ transform: translate(-50% -50%);
 	line-height: 3rem;
 	display: inline;
 	font-size: 3rem;
-	color: #1b065e;
-	transform: translate(50% ,50%);
+	color: #050404;
 }
 
 
@@ -142,3 +140,5 @@ transform: translate(-50% -50%);
   transition: all 0.3s ease-out;
 }
 }
+
+

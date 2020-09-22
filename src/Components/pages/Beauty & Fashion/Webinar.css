@@ -6,7 +6,6 @@
 	cursor: pointer;
 }
  .topic{
-	color: #D29F66;
 	margin: 0;
 	z-index: 90000;
 	position: relative;
@@ -20,7 +19,7 @@
 	
 }
 .text-element h4{
-	color: chartreuse;
+	color: black;
 	
 }
 

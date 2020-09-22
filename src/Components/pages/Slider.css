@@ -11,13 +11,18 @@ font-size:large;
 list-style: none;
 font-weight: bold;
 
+
 }
 .first-item-second{
 font-size:large;
 list-style: none;
 font-weight: bold;
+text-decoration: none;
 }
 
-
+.first-item-second a{
+	text-decoration: none;
+	color:	#1888FF;
+}
 
 

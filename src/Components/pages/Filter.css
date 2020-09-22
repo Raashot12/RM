@@ -1,6 +1,6 @@
 .wrap{
 	position: relative;
-	background-color: aliceblue;
+	background-color: whitesmoke;
 	height: 10rem;
 	box-shadow: 0.3rem 0.3rem 0.3rem #aaa;
 	
@@ -13,13 +13,15 @@
 
 }
 .fa{
-	color: blue;
+	color:white
 }
 
 .search .searchButton{
 	width: 4rem;
 	height: 3rem;
-	background-color:#1B065E
+	background-color:#1888FF;
+	outline-style: none;
+	border-radius: 3px;
 }
 .search .searchTerm{
 	height: 3rem;
@@ -44,7 +46,9 @@
 .search2 .searchButton2{
 	width: 4rem;
 	height: 3rem;
-	background-color:#1B065E
+	background-color:#1888FF;
+	outline-style: none;
+	border-radius: 3px;
 }
 .search2 .searchTerm2{
 	height: 3rem;
@@ -72,7 +76,9 @@
 .search2 .searchButton2{
 	width: 4rem;
 	height: 3rem;
-	background-color:#1B065E;
+	background-color:#1888FF;
+	outline-style: none;
+	border-radius: 3px;
 	position: absolute;
 	right: 6.9rem;
 	top: 5rem;
@@ -138,8 +144,9 @@ display: none;
 	top: 4.92rem;
 	position: relative;
 	left: 2.3rem;
-	background-color:#1B065E;
-	outline: none;
+	background-color:#1888FF;
+	outline-style: none;
+	border-radius: 3px;
 }
 
 
@@ -173,8 +180,10 @@ display: none;
 	height: 2rem;
 	position: relative;
 	right: 1.6rem;
-	background-color:#1B065E;
+	background-color:#1888FF;
 	outline: none;
+	outline-style: none;
+	border-radius: 3px;
 }
 
 
@@ -204,8 +213,10 @@ display: none;
 	height: 2rem;
 	position: relative;
 	left: 13.3rem;
-	background-color:#1B065E;
+	background-color:#1888FF;
 	outline: none;
+	outline-style: none;
+	border-radius: 3px;
 	bottom: 4rem;
 }
 
