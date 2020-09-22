@@ -27,6 +27,7 @@ export default function Webinar(props) {
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
+							<button className='btn5'>Read More...</button>
 						</div>
 					</div>
 				</Item>
@@ -39,6 +40,7 @@ export default function Webinar(props) {
 					<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 					<h5 className='company-name'> {props.company}</h5>
 					<h6 className='attendees-number'>Attendees:{props.attend}</h6>
+							<button className='btn5'>Read More...</button>
 					</div>
 				</div>
 			</Item>
@@ -50,6 +52,7 @@ export default function Webinar(props) {
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
+							<button className='btn5'>Read More...</button>
 						</div>
 					</div>
 			</Item>
@@ -61,6 +64,7 @@ export default function Webinar(props) {
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
+							<button className='btn5'>Read More...</button>
 						</div>
 					</div>
 			</Item>
@@ -83,6 +87,7 @@ export default function Webinar(props) {
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
+							<button className='btn5'>Read More...</button>
 						</div>
 					</div>
 			</Item>

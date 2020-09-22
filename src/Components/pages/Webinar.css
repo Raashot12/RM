@@ -14,15 +14,52 @@
 }
 .text-element{
 	position: relative;
-	top: 3.5rem;
+	top: 3.6rem;
 	right: 1rem;
 	cursor: pointer;
 	outline-style: none;
+	padding-top: 1.6rem;
 }
 .text-element h4{
 	color: black;
 	
+	
 }
+.text-element h5{
+	font-family: 'Courgette', cursive;
+	font-size: medium;
+	margin: 0;
+}
+.text-element h6{
+	font-family: 'Dancing Script', cursive;
+	font-size: medium;
+	margin: 0.8rem;
+}
+
+	
+:root {
+  --primary: #1888ff;
+}
+.btn5 {
+  outline-style: none;
+  border: none;
+  height: 2rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--primary);
+  margin-bottom: .5rem;
+ align-content: center;
+
+}
+.btn5:hover {
+  transition: all 0.3s ease-out;
+  background-color:  #1b065e;
+  color: #fff;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
 
 /* Media Query */
 @media screen and (max-width: 768px){

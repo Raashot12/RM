@@ -10,7 +10,7 @@ import Bounce from 'react-reveal/Bounce'
 			<div className='top-header' id='backtohome'> 
 		<div className='header-wrapper'>
 			 <Bounce right='100min'>
-						<h1>Discover events for<br></br> all the things<br></br> you love</h1>
+						<h1>Discover events for all the things you love</h1>
 					
 			 </Bounce>
 		</div>
