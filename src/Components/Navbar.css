@@ -27,7 +27,6 @@ background-color:#75A1DE;
   color: #fff;
   justify-self: start;
   margin-left: 20px;
-  cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
 }
@@ -143,7 +142,6 @@ background-color:#75A1DE;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
-    cursor: pointer;
   }
 
   .fa-times {
@@ -206,7 +204,6 @@ background-color:#75A1DE;
   border: none;
   font-size: 18px;
   color: #fff;
-  cursor: pointer;
   background-color: var(--primary);
 	position: relative;
    right:2.2rem;
@@ -233,7 +230,6 @@ bottom: 0.2rem;
   height: 2rem;
   font-size: 1rem;
   color: #fff;
-  cursor: pointer;
   background-color: var(--primary);
 	position: relative;
    right:2.2rem;
@@ -265,7 +261,6 @@ width: 100px;
   border: none;
   font-size: 18px;
   color: #fff;
-  cursor: pointer;
   background-color: var(--primary);
 position: relative;
 right: 3rem;
@@ -294,7 +289,6 @@ bottom: 0.2rem;
   height: 2rem;
   font-size: 1rem;
   color: #fff;
-  cursor: pointer;
   background-color: var(--primary);
 	position: relative;
    right:2.2rem;

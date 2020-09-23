@@ -17,8 +17,6 @@
 
 
 .box:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5);
   transform: scale(0.9);  
 }
 
@@ -165,7 +163,7 @@ box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
   color:black;
   border-radius: 5px;
   padding: 20px;
- cursor: pointer;
+ outline-offset: none;
 }
 }
 

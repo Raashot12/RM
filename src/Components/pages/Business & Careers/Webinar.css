@@ -3,20 +3,18 @@
 	right: .11rem;
 	left: 0.1rem;
 	bottom: 1rem;
-	cursor: pointer;
 }
  .topic h4{
 	margin: 0;
 	z-index: 90000;
 	position: relative;
-	cursor: pointer;
 	color:red
 }
 .text-element .topic{
 	position: relative;
 	top: 3.5rem;
 	right: 1rem;
-	cursor: pointer;
+	
 
 }
 .text-element h4{
@@ -33,7 +31,7 @@
 	right: .11rem;
 	left: 0.1rem;
 	bottom: 16rem;
-	cursor: pointer;
+
 }
 } 
 
@@ -42,7 +40,7 @@
 	position: relative;
 	top: 3.5rem;
 	right: -0.1rem;
-	cursor: pointer;
+	
 	
 }
 }

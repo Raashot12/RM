@@ -13,6 +13,7 @@ export default function Componentsfall() {
 			<Filter/>
 			<BrowserCategories/>
 			<BackToTop />
+			{/* <Footer /> */}
 		</div>
 	)
 }

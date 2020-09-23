@@ -8,6 +8,8 @@ html {
   font-size: 16px;	
   letter-spacing: normal;
   line-height: normal;
+  text-shadow: none;
+  shape-outside: none;
   
 }
 *, *:before, *:after {

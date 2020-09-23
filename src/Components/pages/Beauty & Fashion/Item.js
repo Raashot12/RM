@@ -12,7 +12,7 @@ export default styled.div`
   background-color: white;
   position: relative;
   z-index:10000;
-  outline:none;
+  outline-style:none;
   background-decoration:none;
   list-stye: none;
 `;
