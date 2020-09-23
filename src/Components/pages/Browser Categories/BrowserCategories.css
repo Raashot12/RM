@@ -27,7 +27,6 @@
   padding: 20px;
  display: flex;
  height: 3.5rem;
- cursor: pointer;
 box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
 }
 
@@ -57,7 +56,6 @@ box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
   color:black;
   border-radius: 5px;
   padding: 20px;
-  cursor: pointer;
   box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem whitesmoke;	
 }
 
@@ -82,7 +80,6 @@ box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
   color:black;
   border-radius: 5px;
   padding: 20px;
-  cursor: pointer;
 }
 
 }
@@ -109,7 +106,6 @@ box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
   color:black;
   border-radius: 5px;
   padding: 20px;
-  cursor: pointer;
 }
 }
 
@@ -136,7 +132,6 @@ box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
   color:black;
   border-radius: 5px;
   padding: 20px;
-  cursor: pointer;
   box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem whitesmoke;
 }
 }
@@ -188,7 +183,6 @@ box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
   border-radius: 5px;
   padding: 20px;
  display: flex;
-  cursor: pointer;
   box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem whitesmoke;
   outline-style: none;
   list-style-type: none;
