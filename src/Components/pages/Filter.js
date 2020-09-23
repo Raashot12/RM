@@ -38,7 +38,7 @@ function Filter() {
 							<div className="search3">
 								<form>
 									<input type="text" class="searchTerm3" placeholder="Search by Category ex' Health" />
-									<button style={{outline:'none'}} type="search" className="searchButton3" value='search'>
+									<button type="search" className="searchButton3" value='search'>
 										<i className="fa fa-search"></i>
 									</button>
 								</form>
