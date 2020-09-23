@@ -23,7 +23,7 @@ export default function Webinar(props) {
 					<div>
 						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
 						<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020</h4>
+							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
@@ -37,7 +37,7 @@ export default function Webinar(props) {
 				<div>
 					<img className='webinar-img'src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
 					<div className='text-element'>
-					<h4 className='date-year'>24TH SEPT, 2020</h4>
+							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
 					<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 					<h5 className='company-name'> {props.company}</h5>
 					<h6 className='attendees-number'>Attendees:{props.attend}</h6>
@@ -49,7 +49,7 @@ export default function Webinar(props) {
 					<div>
 						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
 						<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020</h4>
+							<h4 className='date-year'>24TH SEPT, 2020 5:00 PM WAT</h4>
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
@@ -61,7 +61,7 @@ export default function Webinar(props) {
 					<div>
 						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
 						<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020</h4>
+							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
@@ -73,7 +73,7 @@ export default function Webinar(props) {
 					<div>
 					<img className='webinar-img'src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
 					<div className='text-element'>
-					<h4 className='date-year'>24TH SEPT, 2020</h4>
+							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
 					<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 					<h5 className='company-name'> {props.company}</h5>
 					<h6 className='attendees-number'>Attendees:{props.attend}</h6>
@@ -85,7 +85,7 @@ export default function Webinar(props) {
 					<div>
 						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
 						<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020</h4>
+							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
 							<h5 className='company-name'> {props.company}</h5>
 							<h6 className='attendees-number'>Attendees:{props.attend}</h6>

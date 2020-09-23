@@ -19,9 +19,16 @@
 .search .searchButton{
 	width: 4rem;
 	height: 3rem;
-	background-color:#1888FF;
+	background-color:#75A1DE;
 	outline-style: none;
 	border-radius: 3px;
+	transition-property: background-color color ease-in-out;
+	transition-duration: 2s;
+	
+}
+.searchButton:hover{
+	background-color:green;
+	color: black;
 }
 .search .searchTerm{
 	height: 3rem;
@@ -46,9 +53,16 @@
 .search2 .searchButton2{
 	width: 4rem;
 	height: 3rem;
-	background-color:#1888FF;
+	background-color:#75A1DE;
 	outline-style: none;
 	border-radius: 3px;
+	transition-property: background-color color ease-in-out;
+	transition-duration: 2s;
+}
+
+.searchButton2:hover{
+	background-color:green;
+	color: black;
 }
 .search2 .searchTerm2{
 	height: 3rem;
@@ -76,12 +90,18 @@
 .search2 .searchButton2{
 	width: 4rem;
 	height: 3rem;
-	background-color:#1888FF;
+	background-color:#75A1DE;
 	outline-style: none;
 	border-radius: 3px;
 	position: absolute;
 	right: 6.9rem;
 	top: 5rem;
+	transition-property: background-color color ease-in-out;
+	transition-duration: 2s;
+}
+.searchButton2:hover{
+	background-color:green;
+	color: black;
 }
 
 }
@@ -144,12 +164,15 @@ display: none;
 	top: 4.92rem;
 	position: relative;
 	left: 2.3rem;
-	background-color:#1888FF;
+	background-color:#75A1DE;
 	outline-style: none;
 	border-radius: 3px;
+	transition-property: background-color color ease-in-out;
+	transition-duration: 2s;
 }
-
-
+.searchButton3:hover{
+	background-color: green;
+}
 
 }
 }
@@ -163,8 +186,6 @@ display: none;
 	.search .searchTerm{
 	height: 2rem;
 	width: 15rem;
- 
-    
 	border-radius: 3px;
 	position: relative;
 	right: 1.6rem;
@@ -180,13 +201,17 @@ display: none;
 	height: 2rem;
 	position: relative;
 	right: 1.6rem;
-	background-color:#1888FF;
+	background-color:#75A1DE;
 	outline: none;
 	outline-style: none;
 	border-radius: 3px;
+	
 }
 
-
+.searchButton2:hover{
+	background-color:green;
+	color: black;
+}
 
 }
 
@@ -213,14 +238,18 @@ display: none;
 	height: 2rem;
 	position: relative;
 	left: 13.3rem;
-	background-color:#1888FF;
+	background-color:#75A1DE;
 	outline: none;
 	outline-style: none;
 	border-radius: 3px;
 	bottom: 4rem;
+	transition-property: background-color color ease-in-out;
+	transition-duration: 2s;
 }
 
-
+.searchButton:hover{
+background-color:green;
+ }
 
 }
 

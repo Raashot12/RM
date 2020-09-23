@@ -2,11 +2,9 @@
 	background:url(./4380.jpg);
 	height: 29rem;
 	width: 100%;
-margin-top:0 ;
-	/* position: relative; */
-	/* top:7rem; */
+	margin-top:0 ;
+	transform: scale(100%,100%);
 	background-position: 0;
-
 	bottom: 1.33em;
 	background-size: cover;
 	position: relative;
@@ -228,14 +226,9 @@ transform: translate(-50% -50%);
 @media screen and  (min-width:1024px){
 .top-header{
 	background:url(./4380.jpg);
-	/* height: 20rem; */
 	width: 100%;
-margin-top:0 ;
-	/* position: relative; */
-	/* top:7rem; */
+	margin-top:0 ;
 	background-position: 0;
-
-	/* bottom: 1.33em; */
 	background-size: cover;
 	position: relative;
 }

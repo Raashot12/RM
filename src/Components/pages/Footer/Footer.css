@@ -1,0 +1,45 @@
+.footer-parent{
+	background-color: #75A1DE;
+	color: #ffffff;
+	width:100%;
+	margin: 0;
+	height: 468px;
+}
+.footer-parent2{
+
+	justify-content: center;
+	margin-left: 190px;
+	
+	padding-top: 3rem;
+}
+
+.webinar-parent{
+	display: block;
+	font-size: x-large;
+	/* border-bottom: 2px solid whitesmoke; */
+	/* border-bottom-right-radius: 4rem; */
+	width: 55rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid whitesmoke;
+}
+.webinar-parent a{
+	padding-left: 1.3rem;
+}
+
+.container1{
+	display: flex;
+	transform: translate( );
+	
+}
+.account-container{
+	/* margin-right:15rem ; */
+	width:320px;
+	display: block;
+}
+
+.fab{
+	color:#303D60;
+	transform: scaleX(2.6);
+	transform: scaleY(1.6);
+	padding-right: 1.5rem;
+}
