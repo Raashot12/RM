@@ -31,6 +31,11 @@ background-color:#75A1DE;
   font-size: 2rem;
 }
 
+a:-webkit-any-link {
+    cursor: none;
+}
+
+
 .fa-firstdraft {
   margin-left: 0.5rem;
   font-size: 1.6rem;
