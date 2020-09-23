@@ -41,7 +41,7 @@ import './Footer.css'
 							<a href='https://www.instagram.com/?hl=en'><span><i class="fab fa-instagram-square"></i></span></a>
 					</div>
 				<div>
-					<li>&copy 2020 RM</li>
+					<li>Copyright © RM, 2020  All rights reserved </li>
 					<li>Terms of Service</li>
 					<li>Privacy Policy</li>
 					<li>Cookie Policy</li>
