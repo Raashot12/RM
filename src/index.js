@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Componentsfall from './Componentsfall'
-
+import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Componentsfall />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import Roll from 'react-reveal/Roll';
 import './Navbar.css';
+// import Signup from './Components/pages/Signup&Login/Signup';
 import logo from './logo.png';
 import Dropdown from './Dropdown';
 import Dropdowns from './Dropdowns'
@@ -55,7 +56,7 @@ function Navbar() {
 			<nav className='navbar' id='BackHome'>
 				<Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
 					<Roll>
-					<img src={logo} alt="company-logo" width='90px' height='43px' />
+					<img src={logo} className='image-logo' alt="company-logo" width='90px' height='43px' />
 					</Roll>
 				</Link>
 				<div className='menu-icon' onClick={handleClick}>
@@ -68,7 +69,7 @@ function Navbar() {
 						onMouseLeave={onMouseLeaves}
 					>
 						<Link
-							to='/services'
+			
 							className='nav-links'
 							onClick={closeMobileMenu}
 						>
@@ -82,7 +83,7 @@ function Navbar() {
 						onMouseLeave={onMouseLeave}
 					>
 						<Link
-							to='/services'
+							
 							className='nav-links'
 							onClick={closeMobileMenu}
 						>
@@ -119,11 +120,14 @@ function Navbar() {
             			</Link>
 					</li>
 				</ul>
-				<Link to='/sign-up'><button className='btn2'>Sign Up</button>
-				</Link>
+			
+				{/* <button className='btn2'><Link to='/Sign-up'>Sign Up</Link></button> */}
+				<Link to="/Signup"><button type="button" className="btn2">Sign Up</button></Link>
+				
 				<Link>
 				<button className='btn'>Log in</button>
 				</Link>
+			
 			</nav>
 		</>
 	);

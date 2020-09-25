@@ -14,13 +14,15 @@ img{
 
 .navbar {
 background-color:#75A1DE;
-	height: 100px;
+	height: 82px;
 	padding-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-	box-shadow: 0.3rem 0.3rem 0.3rem  0.3rem #75A1DE;
+  padding-top: 1.5rem;
+	z-index: 1000;
+
 }
 
 .navbar-logo {
@@ -31,10 +33,13 @@ background-color:#75A1DE;
   font-size: 2rem;
 }
 
-a:-webkit-any-link {
-    cursor: none;
-}
 
+/* .image-logo:-webkit-any-link{
+	cursor: none;
+} */
+img:-webkit-any-link{
+	cursor: none;
+}
 
 .fa-firstdraft {
   margin-left: 0.5rem;

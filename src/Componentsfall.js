@@ -1,19 +1,21 @@
 import React from 'react'
-import App from './App';
-import Header from './Components/pages/Header';
+import Header from './Components/pages/Header'
 import Filter from './Components/pages/Filter'
 import BrowserCategories from './Components/pages/Browser Categories/BrowserCategories';
 import BackToTop from './Components/pages/Back To Top/BackToTop';
+import Footer from './Footer.js'
+
+
+
 
 export default function Componentsfall() {
 	return (
-		<div>
-			<App />
+		<>	
 			<Header />
-			<Filter/>
-			<BrowserCategories/>
+			<Filter />
+			<BrowserCategories />
 			<BackToTop />
-			{/* <Footer /> */}
-		</div>
+			<Footer/>
+		</>
 	)
 }

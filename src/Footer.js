@@ -9,9 +9,16 @@ import './Footer.css'
 			<section className='footer-parent'>
 				<section className='footer-parent2'>
 					<div className='webinar-parent'>
+						<div className='main-webinar'>
 							Create your own webinar.
 							<a href='./'>Get Started</a>
-					</div>
+						</div>
+						
+					</div>	
+					<div> 
+						<p id='let-start' href='//#region '>Start a New Webinar</p>	
+					</div>	
+					
 				<div className='container1'>		
 					<div className='account-container'>
 							<h3>Your Account</h3>
@@ -40,7 +47,7 @@ import './Footer.css'
 							<a href='https://www.youtube.com/'><span><i class="fab fa-youtube"></i></span></a>
 							<a href='https://www.instagram.com/?hl=en'><span><i class="fab fa-instagram-square"></i></span></a>
 					</div>
-				<div>
+				<div className='privacy-page'>
 					<li>Copyright © RM, 2020  All rights reserved </li>
 					<li>Terms of Service</li>
 					<li>Privacy Policy</li>
