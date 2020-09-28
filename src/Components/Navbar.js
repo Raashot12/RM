@@ -124,7 +124,7 @@ function Navbar() {
 				{/* <button className='btn2'><Link to='/Sign-up'>Sign Up</Link></button> */}
 				<Link to="/Signup"><button type="button" className="btn2">Sign Up</button></Link>
 				
-				<Link>
+				<Link to="/Login">
 				<button className='btn'>Log in</button>
 				</Link>
 			
