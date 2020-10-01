@@ -1,0 +1,14 @@
+
+
+
+.signup-parent{
+	background: url(./header-bg.svg);
+}
+
+.welcome h3{
+	word-spacing: .5rem;
+	letter-spacing: 0.5rem;
+	color: slategray;
+	font-size: xx-large;
+
+}

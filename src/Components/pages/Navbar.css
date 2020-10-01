@@ -112,7 +112,8 @@ img:-webkit-any-link{
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
-    position: relative;
+	position: relative;
+	z-index: 120000000000000;
   }
 
   .nav-menu {

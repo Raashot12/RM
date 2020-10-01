@@ -1,8 +1,3 @@
-:root{
-	color: var(--blue);
-}
-
-
 .parent--container{
 	display: flex;
 	justify-content: space-between;
@@ -17,14 +12,15 @@ list-style: none;
 font-weight: bold;
 
 
-
 }
 .first-item-second{
 font-size:large;
 list-style: none;
 font-weight: bold;
+text-decoration: none;
 }
 
-
-
-
+.first-item-second a{
+	text-decoration: none;
+	color:	 #0066F5;
+}

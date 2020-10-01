@@ -18,7 +18,7 @@
 	padding-top: 1.6rem;
 }
 .text-element h4{
-	color: black;
+	color: #6780A5
 	
 	
 }
@@ -39,19 +39,22 @@
   outline-style: none;
   border: none;
   height: 2rem;
-  color: #fff;
-  background-color: #75A1DE;
+  color:  #000000;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: larger;
   margin-bottom: .5rem;
  align-content: center;
  transition-property: background-color color border-radius 3s ease-in-out 1s;
 transition-duration: 4s;
+background-color: transparent;
+cursor: pointer;
 }
 .btn5:hover {
   transition: all 0.3s ease-out;
-  background-color:  #1b065e;
+  background-color:  #0066F5;
   color: #fff;
   border-radius: 4px;
-  border: 2px solid #1E4D72;
   transition: all 0.3s ease-out;
   cursor: pointer;
 }

@@ -6,7 +6,7 @@
 }
  .topic h4{
 	margin: 0;
-	z-index: 90000;
+	z-index: -9;
 	position: relative;
 	color:red
 }

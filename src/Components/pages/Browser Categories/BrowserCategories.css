@@ -29,6 +29,9 @@
  height: 3.5rem;
 box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
 }
+.grid-housing{
+	background-image: url(./header-bg.svg);
+}
 
 .parent-grid{
 	width: 1060px;
@@ -212,4 +215,8 @@ box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem whitesmoke;
 	border-radius: 0.2rem;
 	outline-style: none;
 
+}
+
+.browser-event {
+	color: #0066F5;
 }

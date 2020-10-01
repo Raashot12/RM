@@ -11,9 +11,8 @@ export default styled.div`
   box-shadow: 0.2rem 0.3rem 0.3rem 0.4rem #aaa;
   background-color: white;
   position: relative;
-  z-index:10000;
-  outline:none;
+  z-index:1;
+  outline-style:none;
   background-decoration:none;
   list-stye: none;
-  
 `;

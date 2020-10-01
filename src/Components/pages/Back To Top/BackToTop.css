@@ -1,5 +1,5 @@
 .top-button{
-	background-color:#75A1DE ;
+		background-color:  #0066F5;
 	list-style-type: none;
 	max-width: 100%;
 	width: 100%;
@@ -9,7 +9,7 @@
 
 }
 .top-button a{
-	color: white;
+	color: whitesmoke;
 	justify-items: center;
 	text-decoration: none;
 	cursor: pointer;
@@ -17,12 +17,4 @@
 	top: 0.5rem;
 	transform: translate(-50% -50%);
 
-}
-
-.top-button:hover{
-	background-color:  #1888ff;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
 }

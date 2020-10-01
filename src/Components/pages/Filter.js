@@ -1,58 +1,78 @@
 import React from 'react'
-import './Filter.css'
-import SliderRoot from './Slider';
+import './Filter.css';
 import SliderBusinessCareer from './Business & Careers/Slider';
 import SliderBeautyFashion from './Beauty & Fashion/Slider';
+import SliderTeachScience  from "./Tech & Science/Slider"
+import 'date-fns';
+import Grid from '@material-ui/core/Grid';
+import DateFnsUtils from '@date-io/date-fns';
+import {
+	MuiPickersUtilsProvider,
+	KeyboardTimePicker,
+	KeyboardDatePicker,
+} from '@material-ui/pickers';
 
+export default function  Filter() {
+	// The first commit of Material-UI
+	const [selectedDate, setSelectedDate] = React.useState(new Date('2014-08-18T21:11:54'));
 
+	const handleDateChange = (date) => {
+		setSelectedDate(date);
+	};
 
-
-
-
-function Filter() {
 	return (
-		<div>
-		<div className="wrap">
-			<div className='container'>
-			<div className="search">
-				<form>
-				<input type="text" class="searchTerm"  placeholder="Find your next event"/>
-					<button type="search" className="searchButton" value='search'>
-						<i className="fa fa-search"></i>
-					</button>
-						</form>
-					</div>	
-					<div>
-					<form  className="search-form">
-							<div className="search2">
-								<form>
-									<input type="text" class="searchTerm2" placeholder="Search by Category ex' Health" />
-									<button type="search" className="searchButton2" value='search'>
-										<i className="fa fa-search"></i>
-									</button>
-								</form>
-							</div>	
+		<>
+		<section  className="filter">
+		<MuiPickersUtilsProvider utils={DateFnsUtils}>
+			<Grid container justify="space-evenly">
+				<KeyboardDatePicker
+					disableToolbar
+					variant="inline"
+					format="MM/dd/yyyy"
+					margin="normal"
+					id="date-picker-inline"
+					label="Picker  Date"
+					value={selectedDate}
+					onChange={handleDateChange}
+					KeyboardButtonProps={{
+						'aria-label': 'change date',
+					}}
+				/>
+					<div className="parent-filter">
 
-					</form>
-						<form className="search-form">
-							<div className="search3">
-								<form>
-									<input type="text" class="searchTerm3" placeholder="Search by Category ex' Health" />
-									<button type="search" className="searchButton3" value='search'>
-										<i className="fa fa-search"></i>
-									</button>
-								</form>
-							</div>
+				<div className="loginForms">
+ 				
 
-						</form>
+ 					<span className="larger-width">
+ 						<input type="text" name="firstName"  size="25"  placeholder="Search for your next event"/ >
+ 						<button className="btn-search"><i className="fas fa-search"></i></button> 					
+					</span>
 					</div>
-   		</div>
-			</div>
-		<SliderRoot />
-		<SliderBusinessCareer />
+						</div>
+						
+				<KeyboardTimePicker
+					margin="normal"
+					id="time-picker"
+					label="Pick Time"
+					value={selectedDate}
+					onChange={handleDateChange}
+					KeyboardButtonProps={{
+						'aria-label': 'change time',
+					}}
+				/>
+				
+			</Grid>
+		</MuiPickersUtilsProvider>
+		
 		<SliderBeautyFashion/>
-		</div>
-	)
+		<SliderBusinessCareer />
+				< SliderTeachScience/>
+		</section>
+		</>
+	);
 }
 
-export default Filter
+
+
+
+

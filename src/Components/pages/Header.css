@@ -1,5 +1,5 @@
 .top-header{
-	background:url(./4380.jpg);
+background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(./header-bg.svg);
 	height: 30rem;
 	width: 100%;
 	margin-top:0 ;
@@ -21,37 +21,30 @@
 	font-size: 3rem;
 	letter-spacing: normal;
 	line-height: normal;
-	color:#050404;
+	color:#022B69;
 }
 
-:root {
-  --primary: #1888ff;
-}
-.btn-header {
+
+.btn-header  a{
   padding: 8px 20px;
   border-radius: 4px;
-  
-  outline-style: none;
+  outline-style: none ;
   border: none;
   height: 4rem;
   font-size: 2rem;
   color: #fff;
   cursor: pointer;
-  background-color: var(--primary);
+  background-color: #0066F5;
 	position: absolute;
 	left: 8.1rem;
 	top: 23rem;
+	text-align: center;
 width: 15rem;
 transform: translate(-50% -50%);
+text-decoration: none;
+list-style-type: none;
 }
-.btn-header:hover {
-  padding: 6px 18px;
-  transition: all 0.3s ease-out;
-  background-color:  #1b065e;
-  color: #fff;
-  border-radius: 4px;
-  transition: all 0.3s ease-out;
-}
+
 
 
 
@@ -65,10 +58,10 @@ transform: translate(-50% -50%);
 	top: 3rem;
 	position: absolute;
 	font-weight: 500;
-	font-family: 'Grandstander', cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: xx-large;
 	
-	color: #050404;
+	color: #022B69;
 	transform: translate(50% ,50%);
 	}
 
@@ -87,36 +80,28 @@ transform: translate(-50% -50%);
 	text-justify: inter-word;
 	text-align: justify;
 	font-size: 3rem;
-	color: #050404;
+	color: #022B69;
 }
-	:root {
-  --primary: #1888ff;
-}
-.btn-header {
+
+.btn-header a{
   padding: 8px 20px;
   border-radius: 4px;
-  
+  text-align: center;
   outline-style: none;
   border: none;
   height: 4rem;
   font-size: 2rem;
   color: #fff;
   cursor: pointer;
-  background-color: var(--primary);
+  background-color:  #0066F5;
 	position: absolute;
 	left: 1.6rem;
 	top: 23rem;
 width: 15rem;
+list-style-type: none;
 transform: translate(-50% -50%);
 }
-.btn-header:hover {
-  padding: 6px 18px;
-  transition: all 0.3s ease-out;
-  background-color:  #1b065e;
-  color: #fff;
-  border-radius: 4px;
-  transition: all 0.3s ease-out;
-}
+
 
 }
 
@@ -134,14 +119,12 @@ transform: translate(-50% -50%);
 	text-justify: inter-word;
 	text-align: justify;
 	font-size: 2.5rem;
-	color: #050404;
+	color: #022B69;
 	line-height: 3rem;
 }
 
-:root {
-  --primary: #1888ff;
-}
-.btn-header {
+
+.btn-header a {
   padding: 8px 20px;
   border-radius: 4px;
   outline: none;
@@ -150,23 +133,16 @@ transform: translate(-50% -50%);
   font-size: 1rem;
   color: #fff;
   cursor: pointer;
-  background-color: var(--primary);
+  text-align: center;
+  background-color:  #0066F5;
 	position: absolute;
 	left: 2.3rem;
 top:24rem;
 width: 12rem;
-
+list-style-type: none;
 
 }
-.btn-header:hover {
-  padding: 6px 18px;
-  transition: all 0.3s ease-out;
-  background-color:  #1b065e;
-  color: #fff;
-  border-radius: 4px;
-  border: 2px solid var(--primary);
-  transition: all 0.3s ease-out;
-}
+
 }
 
 
@@ -185,18 +161,90 @@ width: 12rem;
 	font-size: 3rem;
 	letter-spacing: normal;
 	line-height: normal;
-	color:#050404;
+	color:#022B69;
 }
 }
 
 
 @media screen and  (min-width:1024px){
 .top-header{
-	background:url(./4380.jpg);
+
 	width: 100%;
 	margin-top:0 ;
 	background-position: 0;
 	background-size: cover;
 	position: relative;
 }
+}
+
+
+/* .center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.center a {
+  padding:10px 20px;
+  background:#eee;
+  color:#111;
+  font-size:15px;
+  font-weight:600;
+  text-decoration:none;
+  border-radius:5px;
+} */
+
+#popup {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:white;
+  display:none;
+  z-index: 100000000000;
+}
+#popup .popup-content {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:400px;
+  padding:10px 20px;
+background: white;
+  z-index: 100000000000;
+  
+}
+#popup a.close-popup {
+  position:absolute;
+  top:20px;
+  right:20px;
+  font-size:20px;
+  font-weight:600;
+  text-decoration:none;
+  color:#0067F5;
+}
+#popup:target {
+  display:block;
+}
+
+.Click-Me{
+	border-radius: .9rem;
+	width: 6rem;
+	height: 3rem;
+	outline: none;
+	border: none;
+	color: white;
+	background-color:#0067F5 ;
+	transition: transform border  border-radius color 10s ease-in-out;
+	cursor: pointer;
+}
+
+.Click-Me:hover{
+	transform: scale(1.2);
+	background-color: transparent;
+	border: 1px solid red;
+	border-radius: .6rem;
+	color: red;
+	cursor: pointer;
 }

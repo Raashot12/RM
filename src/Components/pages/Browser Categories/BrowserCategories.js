@@ -6,7 +6,7 @@ import './BrowserCategories.css'
 
  const BrowserCategories = () => {
 	return (
-		<div>
+		<div   className="grid-housing">
 				<section className='parent-grid'>
 					<Roll>
 					<h2 className='browser-event'>Browser events by Category</h2>	

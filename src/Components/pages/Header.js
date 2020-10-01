@@ -1,11 +1,15 @@
 import React from 'react'
-// import { Button } from 'antd'
 import './Header.css'
 import Bounce from 'react-reveal/Bounce'
+import Navbar from "../Navbar"
+import {Link } from  "react-router-dom"
+
+
 
 
 const Header = () => {
 	return (
+		<>
 		<div>
 			<div className='top-header' id='backtohome'>
 				<div className='header-wrapper'>
@@ -14,10 +18,23 @@ const Header = () => {
 
 					</Bounce>
 				</div>
+			
 			</div>
-			<button className=' btn-header ' >Join RM</button>
+			<div id="popup">
+				<Navbar />
+				<div class="popup-content center">
+					<h1>Welcome </h1>
+					<p>If you want to join this community, kindly tap the link below to Sign up</p>
+						<Link to="./Signup" ><button className="Click-Me"> Click me &nbsp;<i class="fas fa-caret-right"></i><i class="fas fa-caret-right"></i><i class="fas fa-caret-right"></i><i class="fas fa-caret-right"></i></button></Link>
+					<a href="/#" class="close-popup">&times;</a>
+				</div>
+			</div>
+				<div className="btn-header">
+				<a href="#popup" >Join RM</a>
+			</div>
+			{/* <button className=' btn-header ' id="popup" >Join RM </button> */}
 		</div>
-
+	</>
 	)
 }
 export default Header;

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch,
 import './App.css';
 import Signup from './Components/pages/Signup&Login/Signup'
 import Login from './Components/pages/Signup&Login/Login';
+import ResetPassword from './Components/pages/Signup&Login/ResetPassword';
 import Componentsfall from './Componentsfall';
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 			<Route path="/" component={Componentsfall} exact />
 			<Route path="/Login" component={Login} exact />
 			<Route path="/Signup" component={Signup} exact/>
+			<Route path="/ResetPassword" component={ResetPassword} exact />
 		</Switch>
 	</Router>
 	  </div>

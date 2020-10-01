@@ -9,7 +9,7 @@ export default styled.div`
   width: 100%;
   margin:0 15px;
   position: relative;
-  z-index:10000;
+  z-index:1;
   outline:none;
   background-decoration:none;
   list-stye: none;
