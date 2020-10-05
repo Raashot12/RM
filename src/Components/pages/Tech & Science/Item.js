@@ -8,7 +8,8 @@ export default styled.div`
   height: 400px;
   width: 100%;
   margin:0 15px;
-  box-shadow: 0.2rem 0.3rem 0.3rem 0.4rem #aaa;
+    border-radius: 8px;
+  border: 1px solid #0066F5;
   background-color: white;
   position: relative;
   z-index:1;

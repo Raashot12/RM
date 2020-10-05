@@ -13,7 +13,7 @@ export default styled.div`
   outline:none;
   background-decoration:none;
   list-stye: none;
-  box-shadow: 0.2rem 0.3rem 0.3rem 0.4rem #aaa;
   background-color: white;
-  
+  border-radius: 8px;
+  border: 1px solid #0066F5;
 `;

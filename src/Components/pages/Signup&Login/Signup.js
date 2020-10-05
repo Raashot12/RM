@@ -105,7 +105,7 @@ handleChange = (event) =>{
 								<input type="checkbox" name="checked" value={this.state.remember} onChange={this.handleCheckbox} style={{ marginBottom: "2px" }} /> Remember me  	{JSON.stringify(this.state.checked)}
 							</label>
 								<div>
-									<button type="submit" className="btn10" onClick={this.handleClick}>Sign up</button>
+								<Link to="/Signupflow">	<button type="submit" className="btn10" onClick={this.handleClick}>Sign up</button></Link>
 								</div>
 
 								<div className='withtheflowing' >or with the following:</div>
