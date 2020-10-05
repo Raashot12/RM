@@ -1,0 +1,79 @@
+.parent-flow{
+	margin: 40px auto;
+	text-align: center;
+	align-items: center;
+}
+
+.house-flow{
+	background-color: #F6F7F8;
+	height: 32rem;
+}
+.upload-btn{
+	width: 20rem;
+	height: 2.3rem;
+	background-color: #0066F5;
+	border-radius: 3px;
+	outline: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	transition: background-color 1s ease-in-out 1s, border 1s ease-in-out 1s;
+	/* transition-delay: 3s;
+	transition-duration: 1s; */
+}
+.upload-btn:hover{
+	color: red;
+	background-color:transparent;
+	border: 1px solid red;
+}
+
+.upload-btn2{
+	cursor: pointer;
+	width: 20rem;
+	height: 2.3rem;
+	background-color: transperant;
+	border-radius: 3px;
+	border:1px solid #0066F5;
+	color: #0066F5;
+	outline: none;
+
+}
+.upload-btn2:hover{
+ border: 1px solid red;
+ color: red;
+}
+.stroke{
+color:#D2DAE1;
+}
+.Or{
+color: black;
+}
+.parent-flow .fa-user {
+color:#9EA9B0 ;
+transform: translate(-50px -50px) ;
+position: absolute ;
+align-items: center ;
+left: 50px ;
+right: 50px ;
+top: 50px ;
+}
+
+.fasbackground{
+	background-color:#D2DAE1;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	margin-bottom: 2rem;
+}
+
+.flow-welcome{
+	color: #022B69;
+	font-weight: bold;
+}
+
+.house-flow  .skip {
+
+   color: black;
+}

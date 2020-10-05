@@ -3,9 +3,9 @@ import {  Link } from 'react-router-dom';
 import Roll from 'react-reveal/Roll';
 import './Navbar.css';
 // import Signup from './Components/pages/Signup&Login/Signup';
-import logo from './logo.png';
 import Dropdown from './Dropdown';
 import Dropdowns from './Dropdowns'
+import logo from './logo.png';
 
 function Navbar() {
 	const [click, setClick] = useState(false);
@@ -103,7 +103,7 @@ function Navbar() {
 				
 					<li>
 						<Link
-							to='/sign-up'
+							to='/Login'
 							className='nav-links-mobile'
 							onClick={closeMobileMenu}
 						>
@@ -112,7 +112,7 @@ function Navbar() {
 					</li>
 					<li>
 						<Link
-							to='/sign-up'
+							to='/Signup'
 							className='nav-links-mobile'
 							onClick={closeMobileMenu}
 						>

@@ -5,6 +5,9 @@ import { FaFacebook } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import Footer from "./Footer";
 import "./Login.css"
+import Navbar from '../Navigation/Navbar';
+
+
 
 export default class Login extends Component {
 	state = {
@@ -30,6 +33,7 @@ export default class Login extends Component {
 	render() {
 		return (
 			<>
+			<Navbar/>
 			<section  className="signup-parent">
 				<div className="loginForm">
 					<img src={logo} className="App-logo" alt="logo" />

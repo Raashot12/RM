@@ -1,0 +1,20 @@
+
+.parent-nav{
+	display: flex;
+	justify-content:  space-between;
+ z-index: 1000000000;
+ position: fixed;
+ background-color: white;
+ width: 100%;
+}
+
+.logo-house{
+	margin-bottom: 2rem;
+}
+
+@media screen and  (max-width:1016px){
+.logo-house img{
+	margin-top: 1rem;
+}
+}
+ 

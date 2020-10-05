@@ -1,0 +1,49 @@
+.parent-flow{
+	margin: 40px auto;
+	text-align: center;
+	align-items: center;
+}
+
+.house-flow{
+	background-color: #F6F7F8;
+	height: 34rem;
+}
+
+.flow-welcome{
+	color: #022B69;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.interest-for{
+	margin-top: 1.2rem;
+}
+
+.interest-bottom{
+	margin-bottom: .5rem;
+}
+
+.btn-interest{
+max-width: 400px;
+width: 100%;
+height: 60px;
+word-spacing: normal;
+letter-spacing: normal;
+outline: none;
+border: 1px solid #0066F5;
+background-color: #0066F5;
+font-weight: bold;
+color: white;
+border-radius: 4px;
+transition: transform 1s ease-in-out 1s, background-color 1s ease-in-out 1s, color 1s ease-in-out 1s , font-weight 1s ease-in-out ;
+cursor: pointer;
+}
+
+
+.btn-interest:hover{
+	transform: scale(1.1);
+	color: red;
+	background-color: transparent;
+	font-weight: bold;
+	border: 1px solid red;
+cursor: pointer;
+}
