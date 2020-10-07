@@ -1,73 +1,33 @@
-.webinar-img{
-	position: absolute;
-	right: .11rem;
-	left: 0.1rem;
-	bottom: 1rem;
-}
- .topic{
-	color: #D29F66;
+
+
+ .topic h4{
 	margin: 0;
-	z-index: 90000;
+	z-index: -9;
 	position: relative;
+	color:red
 }
-.text-element{
+.text-element .topic{
 	position: relative;
-	top: 3.6rem;
+	top: 3.5rem;
 	right: 1rem;
-	outline-style: none;
-	padding-top: 1.6rem;
+	
+
 }
 .text-element h4{
-	color: #6780A5
-	
-	
+	line-height: 16px;
+	font-family: 'Grandstander', cursive;
+	font-weight: 800;
+	color: black;
 }
-.text-element h5{
-	font-family: 'Courgette', cursive;
-	font-size: medium;
-	margin: 0;
-}
-.text-element h6{
-	font-family: 'Dancing Script', cursive;
-	font-size: medium;
-	margin: 0.8rem;
-}
-
-	
-
-.btn5 {
-  outline-style: none;
-  border: none;
-  height: 2rem;
-  color:  #000000;
-  font-family: 'Dancing Script', cursive;
-  font-weight: 600;
-  font-size: larger;
-  margin-bottom: .5rem;
- align-content: center;
- transition-property: background-color color border-radius 3s ease-in-out 1s;
-transition-duration: 4s;
-background-color: transparent;
-cursor: pointer;
-}
-.btn5:hover {
-  transition: all 0.3s ease-out;
-  background-color:  #0066F5;
-  color: #fff;
-  border-radius: 4px;
-  transition: all 0.3s ease-out;
-  cursor: pointer;
-}
-
 
 /* Media Query */
 @media screen and (max-width: 768px){
 .webinar-img{
 	position: absolute;
 	right: .11rem;
-	left: 0.1rem;
-	bottom: 16rem;
-	outline-style: none;
+	left: 0.2px;
+	bottom: 15.5rem;
+
 }
 } 
 
@@ -76,6 +36,16 @@ cursor: pointer;
 	position: relative;
 	top: 3.5rem;
 	right: -0.1rem;
-	outline-style: none;
+	
+	
 }
 }
+.slider-container{
+	margin-left: .3rem;
+	margin-right: .3rem;
+}
+
+/* .slider-container img {
+	position: relative;
+	bottom: 5rem;
+} */

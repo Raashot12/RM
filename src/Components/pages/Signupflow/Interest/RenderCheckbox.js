@@ -19,7 +19,8 @@ import logoflow13 from "./logoflow13.png"
 import logoflow14 from "./logoflow14.png"
 import logoflow15 from "./logoflow15.png"
 import logoflow16 from "./logoflow16.png"
-import {Link} from "react-router-dom"
+import ButtonDisabled from './BtnDisabled'
+import ButtonEnabled from './BtnEnabled'
 
 
 
@@ -27,7 +28,7 @@ import {Link} from "react-router-dom"
 export default class RenderCheckbox extends React.Component {
 	constructor(props) {
 		super(props)
-		this.state = [{			
+		this.state = {			
 			checked: false,
 			check0: false,
 			check1: false,
@@ -52,9 +53,19 @@ export default class RenderCheckbox extends React.Component {
 			check22: false,
 			check23: false,
 			check24: false,
-		}]
-
+		}
+	
 	}
+
+ btne = () =>{
+	 return this.state.checked || this.state.check0 || this.state.check1 || this.state.check2 || this.state.check3
+			|| this.state.check4 ||this.state.check5 || this.state.check6 || this.state.check7 || this.state.check8 || this.state.check9
+ 			|| this.state.check10 || this.state.check11 || this.state.check12 || this.state.check13 || this.state.check14 || this.state.check15
+ 			|| this.state.check16 || this.state.check17 || this.state.check18 || this.state.check19 || this.state.check20 || this.state.check21
+			|| this.state.check22 ? <ButtonEnabled /> : <ButtonDisabled />
+}
+
+
 
 	icon = () =>{
 		return this.state.checked ? <IconCheck /> : <IconUnchecked />
@@ -62,11 +73,14 @@ export default class RenderCheckbox extends React.Component {
 
 	toggle = (event) => {
 		event.preventDefault()
+		  
 		this.setState(function (state, props) {
 			return {
-				checked: !state.checked
+				checked: !state.checked,
+				
 			}
 		})
+		
 	}
 	icon0 = () => {
 		return this.state.check0 ? <IconCheck /> : <IconUnchecked />
@@ -74,9 +88,17 @@ export default class RenderCheckbox extends React.Component {
 
 	toggle1 = (event) => {
 		event.preventDefault()
+		this.btne() 
 		this.setState(function (state) {
 			return {
-				check0: !state.check0
+				check0: !state.check0,
+				
+			}
+		})
+
+		this.setState(function (state){
+			return {
+			
 			}
 		})
 	}
@@ -85,11 +107,17 @@ export default class RenderCheckbox extends React.Component {
 		return this.state.check1 ? <IconCheck /> : <IconUnchecked />
 	}
 
-	toggle2 = (event) => {
+	toggle2 = (event, state) => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check1: !state.check1
+				check1: !state.check1,
+			
+			}
+		})
+		this.setState(function (state) {
+			return {
+			
 			}
 		})
 	}
@@ -102,7 +130,7 @@ export default class RenderCheckbox extends React.Component {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check2: !state.check2
+				check2: !state.check2,
 			}
 		})
 	}
@@ -114,7 +142,8 @@ export default class RenderCheckbox extends React.Component {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check3: !state.check3
+				check3: !state.check3,
+		
 			}
 		})
 	}
@@ -128,7 +157,8 @@ export default class RenderCheckbox extends React.Component {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check4: !state.check4
+				check4: !state.check4,
+		
 			}
 		})
 	}
@@ -141,7 +171,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check5: !state.check5
+				check5: !state.check5,
+		
 			}
 		})
 	}
@@ -154,7 +185,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check6: !state.check6
+				check6: !state.check6,
+		
 			}
 		})
 	}
@@ -167,7 +199,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check7: !state.check7
+				check7: !state.check7,
+		
 			}
 		})
 	}
@@ -181,7 +214,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check8: !state.check8
+				check8: !state.check8,
+		
 			}
 		})
 	}
@@ -195,7 +229,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check9: !state.check9
+				check9: !state.check9,
+		
 			}
 		})
 	}
@@ -209,7 +244,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check10: !state.check10
+				check10: !state.check10,
+		
 			}
 		})
 	}
@@ -224,7 +260,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check11: !state.check11
+				check11: !state.check11,
+		
 			}
 		})
 	}
@@ -238,7 +275,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check12: !state.check12
+				check12: !state.check12,
+		
 			}
 		})
 	}
@@ -253,7 +291,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check13: !state.check13
+				check13: !state.check13,
+		
 			}
 		})
 	}
@@ -268,7 +307,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check14: !state.check14
+				check14: !state.check14,
+		
 			}
 		})
 	}
@@ -283,7 +323,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check15: !state.check15
+				check15: !state.check15,
+		
 			}
 		})
 	}
@@ -298,7 +339,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check16: !state.check16
+				check16: !state.check16,
+		
 			}
 		})
 	}
@@ -312,7 +354,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check17: !state.check17
+				check17: !state.check17,
+		
 			}
 		})
 	}
@@ -326,7 +369,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check18: !state.check18
+				check18: !state.check18,
+		
 			}
 		})
 	}
@@ -342,7 +386,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check19: !state.check19
+				check19: !state.check19,
+		
 			}
 		})
 	}
@@ -356,7 +401,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check20: !state.check20
+				check20: !state.check20,
+		
 			}
 		})
 	}
@@ -371,7 +417,8 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check21: !state.check21
+				check21: !state.check21,
+		
 			}
 		})
 	}
@@ -385,7 +432,7 @@ icon5 = () => {
 		event.preventDefault()
 		this.setState(function (state) {
 			return {
-				check22: !state.check22
+				check22: !state.check22,
 			}
 		})
 	}
@@ -410,7 +457,9 @@ icon5 = () => {
 							backgroundSize: 'cover',
 							backgroundRepeat: 'no-repeat',
 							borderRadius: "4px",
-					}}>
+							outline: "none",
+							border: "none"
+					}} >
 					</div>
 					
 					</div>
@@ -439,7 +488,7 @@ icon5 = () => {
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
-							}} >
+							}} name= "che" >
 
 							</div>
 								<span className="attributes">Bussiness & Career</span>
@@ -757,8 +806,10 @@ icon5 = () => {
 							</div>
 								<span className="attributes">  Learning</span>
         			</div>
-
-							<Link to="/narrow-down" disabled={this.state.length < 1} > <button  style={{ width: "40px", height: "40px" }}>Next</button></Link>
+								<span className="btn-interest--checked   flex-btn">
+								{this.btne()}
+								</span>
+						
 						</div>
 		</div>
 		</div>

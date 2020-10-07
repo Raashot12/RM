@@ -12,7 +12,7 @@
 	background-color: #F6F7F8;
 	padding-bottom: 3rem;
 	margin-bottom: 90px;
-	height: 1950px;
+	height: 2000px;
 	position: relative;
 }
 .griidd-parents{
@@ -189,4 +189,57 @@
 	margin-left: 10%;
  
 }
+}
+
+
+.btn-disable{
+	background-color: #D2CBCB ;
+	color:  #686963;
+	font-size: xx-large;
+	width: 800%;
+	font-weight: bolder;
+	height: 60px;
+	border: 1px solid #D2CBCB;
+		border-radius: 3px;
+}
+
+.btn-enable{
+		background-color: #0066F5;
+	width: 100%;
+	color: white;
+	font-weight: bolder;
+	height: 60px;
+	font-size: xx-large;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+	outline-style: none;
+	outline-color: transparent;
+	transition: background-color 0s ease 1s, color 0s ease 1s, borde-radius 0s ease 1s;
+}
+.btn-enable:hover{
+	background-color: transparent;
+	width: 100%;
+	color: red;
+	font-weight: bolder;
+	height: 60px;
+	border:4px solid #0066F5;
+	cursor: pointer;
+	border-radius: 4px;
+	outline:none;
+
+}
+
+
+
+.btn-interest--checked{
+display: flex;
+width: 100%;
+margin-top: 30px;
+
+}
+
+.flex-btn{
+	justify-content: center;
 }

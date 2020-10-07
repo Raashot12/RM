@@ -1,9 +1,5 @@
-.webinar-img{
-	position: absolute;
-	right: .11rem;
-	left: 0.1rem;
-	bottom: 1rem;
-}
+
+
  .topic h4{
 	margin: 0;
 	z-index: -9;
@@ -44,3 +40,12 @@
 	
 }
 }
+.slider-container{
+	margin-left: .3rem;
+	margin-right: .3rem;
+}
+
+/* .slider-container img {
+	position: relative;
+	bottom: 5rem;
+} */

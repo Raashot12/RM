@@ -18,6 +18,7 @@ export default function Webinar(props) {
 	return (
 	
 		<>	
+			<div className="slider-container">
 			<Carousel breakPoints={breakPoints}>
 				<Item>
 					<div>
@@ -81,7 +82,7 @@ export default function Webinar(props) {
 			</Item>
 				<Item>
 					<div>
-						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
+						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' positon ="absolute" bottom="40rem"/>
 						<div className='text-element'>
 							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
 							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
@@ -92,7 +93,7 @@ export default function Webinar(props) {
 					</div>
 			</Item>
 			</Carousel>
-			
+		</div>	
 		</>
 		
 	)

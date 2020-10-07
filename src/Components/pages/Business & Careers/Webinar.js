@@ -17,10 +17,11 @@ export default function Webinar(props) {
 
 	return (
 	
-		<>	
+		<>
+			<div className="slider-container">	
 			<Carousel breakPoints={breakPoints}>
 				<Item>
-					<div>
+					<div className="single-cards-slide">
 						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
 						<div className='text-element'>
 							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
@@ -93,7 +94,7 @@ export default function Webinar(props) {
 					</div>
 			</Item>
 			</Carousel>
-			
+			</div>
 		</>
 		
 	)
