@@ -4,7 +4,7 @@ import BlogSlide from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import './slider-animations.css';
 import "./Blog.css"
-
+import Card from "./Card"
 
 const content = [
 	{
@@ -68,7 +68,29 @@ const Blog = () => {
 		</BlogSlide>
 					
 				</div>			
+			{/* <Card /> */}
+			<div>
+				<div class="section group  giveitspace">
+					<div class="col span_1_of_3 matchheight">
+						For taking up the challenge to par􀆟cipate in and comple􀆟ng the Nurturing God’s Treasures
+						online book reading compe􀆟􀆟on, thereby exhibi􀆟ng skills such as audacity, tenacity, crea􀆟vity
+						and excellence.
+					</div>
+					<div class="col span_1_of_3 matchheight">
+						For taking up the challenge to par􀆟cipate in and comple􀆟ng the Nurturing God’s Treasures
+						online book reading compe􀆟􀆟on, thereby exhibi􀆟ng skills such as audacity, tenacity, crea􀆟vity
+						and excellence.
+					</div>
+					<div class="col span_1_of_3 matchheight">
+						For taking up the challenge to par􀆟cipate in and comple􀆟ng the Nurturing God’s Treasures
+						online book reading compe􀆟􀆟on, thereby exhibi􀆟ng skills such as audacity, tenacity, crea􀆟vity
+						and excellence.
+					</div>
+				</div>
+			</div>
 		</div>
 	)
 }
 export default Blog;
+
+

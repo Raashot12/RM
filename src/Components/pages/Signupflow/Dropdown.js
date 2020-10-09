@@ -9,7 +9,8 @@ function Dropdown() {
   const handleClick = () => setClick(!click);
 
   return (
-    <>
+    
+<div  className="movedrop">
       <ul
         onClick={handleClick}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
@@ -27,8 +28,11 @@ function Dropdown() {
             </li>
           );
         })}
-      </ul>
-    </>
+    
+	  </ul>
+		  </div>
+
+	
   );
 }
 

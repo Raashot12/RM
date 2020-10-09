@@ -35,4 +35,14 @@
   .fa-caret-down {
     display: none;
   }
+
+  .dropdown-menu {
+  /* background: red; */
+  width: 1000px;
+  position: absolute;
+  top:140px;
+  list-style: none;
+  right: 300px;
+  text-align: center;
+}
 }

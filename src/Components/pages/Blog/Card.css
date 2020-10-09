@@ -1,0 +1,4 @@
+.wrapper-of-card{
+	display: flex;
+	justify-content: space-between;
+}
