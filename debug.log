@@ -2,3 +2,6 @@
 [0920/071056.345:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
 [0930/092416.366:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
 [0930/161633.067:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
+[1007/195306.188:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
+[1008/022828.767:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)
+[1008/100540.330:ERROR:file_io.cc(135)] WriteFile: The pipe is being closed. (0xE8)

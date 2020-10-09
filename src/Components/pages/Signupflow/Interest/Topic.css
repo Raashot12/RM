@@ -1,0 +1,134 @@
+/* .container-check{
+	
+} */
+ 
+.container-check{
+margin: 10px auto;
+	text-align: center;
+	align-items: center;
+	/* display: inline-block; */
+color: #595D5F;
+
+	
+}
+.text-area-for-narrowdown input{
+		
+	height: 40px;
+	font-size:large;
+	color: #595D5F;
+	text-align: center;
+align-items: center;
+align-content: center;
+display: block;
+margin: 0 auto;
+}
+.space-down{
+	margin: 2rem;
+}
+
+.opposite-each-other{
+
+	
+	justify-content: center;
+	position: relative;
+	right: 5rem;
+		padding-bottom: 1rem;
+
+		
+}
+.checkbox{
+	cursor: pointer;
+	position: relative;
+	text-justify: inter-word;
+	justify-items: flex-start;
+}
+.checkboxposition{
+	position: relative;
+	right: 5.3rem;
+}
+
+.checkboxpositionempowe{
+	position: relative;
+	left: -2rem;
+}
+
+.checkboxpositionfun{
+	position: relative;
+	left: -5.8rem;
+}
+.checkboxpositionconver{
+	position: relative;
+	left: -4.5rem;
+}
+
+.checkboxpositionentertain{
+	position: relative;
+	left:-4.2rem ;
+}
+
+.checkboxpositionsocial{
+	position: relative;
+	left: -6.4rem;
+}
+
+.opposite-each-others{
+	margin-right: 260px;
+	padding-bottom: .2rem;
+	
+}
+
+.container{
+	font-weight: bolder;
+	height: 40px;
+	font-size: 1.2rem;
+cursor: pointer;
+}
+
+.borderline{
+	border: 0.4px  lightslategray;
+	border-style: dotted;
+	
+	width: 300px;
+	margin: 0 auto;
+}
+
+.btn-interest-narrow{
+	max-width: 300px;
+width: 100%;
+height: 50px;
+display: block;
+margin: 1rem auto;
+word-spacing: normal;
+letter-spacing: normal;
+outline: none;
+border: 1px solid #0066F5;
+background-color: #0066F5;
+font-weight: bold;
+color: white;
+border-radius: 4px;
+transition: transform 0s ease-in-out 0s, background-color 0s ease-in-out 0s, color 0s ease-in-out 0s , font-weight 1s ease-in-out 1s ;
+cursor: pointer;
+}
+
+.btn-interest-narrow:hover{
+	color: red;
+	background-color: transparent;
+	font-weight: bold;
+	border: 1px solid red;
+cursor: pointer;
+}
+
+.scroll-over2{
+	padding-top: 5rem;
+	scroll-behavior: smooth;
+	background-color: #F6F7F8;
+	padding-bottom: 3rem;
+	margin-bottom: 90px;
+	height: 800px;
+	position: relative;
+}
+
+.scroll-over2 h1{
+	text-align: center;
+	color:#022B69;
+}

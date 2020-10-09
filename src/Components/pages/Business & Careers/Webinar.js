@@ -1,7 +1,7 @@
 import React from 'react'
 import './Webinar.css';
 import "react-alice-carousel/lib/alice-carousel.css";
-import Carousel from "react-elastic-carousel";
+import Carousl from "react-elastic-carousel";
 import Item from "./Item";
 
 
@@ -19,7 +19,7 @@ export default function Webinar(props) {
 	
 		<>
 			<div className="slider-container">	
-			<Carousel breakPoints={breakPoints}>
+			<Carousl breakPoints={breakPoints}>
 				<Item>
 					<div className="single-cards-slide">
 						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
@@ -93,7 +93,7 @@ export default function Webinar(props) {
 						</div>
 					</div>
 			</Item>
-			</Carousel>
+			</Carousl>
 			</div>
 		</>
 		

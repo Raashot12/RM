@@ -21,7 +21,7 @@ export default class Signup extends Component {
 				phone:"",
 				username: "",
 				password: "",
-				remember: false,
+				checked: false,
 			}
 handleSubmit = (event )  =>{
 	 event.preventDefault()
@@ -34,7 +34,7 @@ handleSubmit = (event )  =>{
 		 phone: "",
 		 username: "",
 		 password: "",
-		 checked: true,
+
 		 
 	 })
 }
@@ -43,6 +43,7 @@ handleChange = (event) =>{
 	console.log(event.target.value)
 	this.setState({
 			[event.target.name ] : event.target.value,
+			
 	})
 
 }
@@ -102,7 +103,7 @@ handleChange = (event) =>{
 								</span>
 
 								<label>
-								<input type="checkbox" name="checked" value={this.state.remember} onChange={this.handleCheckbox} style={{ marginBottom: "2px" }} /> Remember me  	{JSON.stringify(this.state.checked)}
+								<input type="checkbox" name="checked" value={this.state.checked} onClick={this.handleCheckbox} style={{ marginBottom: "2px" }} /> Remember me  
 							</label>
 								<div>
 									<button type="submit" className="btn10" onClick={this.handleClick}>Sign up</button>

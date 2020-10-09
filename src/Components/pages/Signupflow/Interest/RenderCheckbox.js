@@ -21,6 +21,7 @@ import logoflow15 from "./logoflow15.png"
 import logoflow16 from "./logoflow16.png"
 import ButtonDisabled from './BtnDisabled'
 import ButtonEnabled from './BtnEnabled'
+import { Redirect } from "react-router-dom"
 
 
 
@@ -56,7 +57,11 @@ export default class RenderCheckbox extends React.Component {
 		}
 	
 	}
-
+	
+	  doSomething  = ()=>{
+		this.setState({redirectToNewPage: true})
+	}
+	
  btne = () =>{
 	 return this.state.checked || this.state.check0 || this.state.check1 || this.state.check2 || this.state.check3
 			|| this.state.check4 ||this.state.check5 || this.state.check6 || this.state.check7 || this.state.check8 || this.state.check9
@@ -806,10 +811,12 @@ icon5 = () => {
 							</div>
 								<span className="attributes">  Learning</span>
         			</div>
-								<span className="btn-interest--checked   flex-btn">
+							<div>
+							<span className="btn-interest--checked   flex-btn"  onClick={this.doSomething}>
+								{this.state.redirectToNewPage && <Redirect to="./topics" / >}	
 								{this.btne()}
-								</span>
-						
+							</span>
+							</div>
 						</div>
 		</div>
 		</div>
@@ -818,31 +825,3 @@ icon5 = () => {
 		)
 	}
 }
-
-// const Styles = {
-// 	button: {
-// 		background: 'transparent',
-// 		border: '0',
-// 		marginBottom: '0.5rem',
-// 		fontSize: '1rem',
-// 		display: 'flex',
-// 		outline: '0',
-// 		position: "relative",
-// 		top: "100px",
-// 		color: '#9B9B9B',
-// 		marginRight: '0.5rem',
-// 		cursor: 'pointer',
-// 		textAlign: 'left'
-// 	},
-
-// 	check: {
-// 		marginRight: '1rem'
-// 	},
-
-// 	content: {
-// 		paddingTop: '0.2rem',
-// 		fontSize: '0.9rem',
-// 		fontWeight: '100',
-// 		lineHeight: '1.25rem'
-// 	}
-// }
