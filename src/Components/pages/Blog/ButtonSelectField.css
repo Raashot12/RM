@@ -1,0 +1,16 @@
+.buttonstyle{
+	background-color: #F8F7FA;
+	padding: .7rem;
+	border: none;
+	color: #6B5AFE;
+	cursor: pointer;
+}
+
+.buttonstyle:hover{
+	color:red;
+	cursor: pointer;
+	background-color: transparent;
+}
+/* .bannerblog{
+
+} */

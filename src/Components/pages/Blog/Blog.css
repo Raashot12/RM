@@ -202,3 +202,9 @@
     font-size: 32px;
   }
 }
+@media (max-width: 360px){
+.slider-wrapper{
+	position: relative;
+	left: .4rem
+	}
+}

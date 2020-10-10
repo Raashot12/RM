@@ -1,4 +1,134 @@
-.wrapper-of-card{
+/* .wrapper-a{
+	display: flexbox;
+}
+.container{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+} */
+.general-container{
+	background-color: #FAFAFF;
+}
+.panel{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 1rem;
+justify-content: space-around;
+
+}
+
+
+.flex-item{
+	padding-bottom: 2rem;
+	/* padding-top: 2.8rem; */
+	background-size: contain;
+	background-color: #FAFAFF;
+	height: 470px;
+	box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}  
+.flex-item:hover{
+	 box-shadow: 13px 15px 60px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transform: scale(1.01);
+}
+.blog_date-wrapper{
+	display: flex;
+	font-size: small;
+	margin-top: 0.8rem;
+	margin-bottom: 2rem;
+
+	
+}
+
+.flex-itemss {
+	padding-bottom: 2rem;
+	/* padding-top: 2.8rem; */
+	background-size: contain;
+	background-color: #FAFAFF;
+	height: 470px;
+	box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+.blog-to-have-space{
+	padding-right: .6rem;
+		color: #4A6BFF;
+}
+
+.article-wrapper .brief{
+	color:#13002D;
+	font-weight: bolder;
+	font-style: oblique;
+	padding-top: 2rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+	text-justify: inter-word;
+	justify-content: center;
+}
+
+.article-wrapper{
+	padding-left: 1rem;
+}
+
+.inbox{
+	font-weight: bolder;
+	font-size: xx-large;
+	line-height: normal;
+	color: #0D0D0D;
+	padding-left:  2rem;
+	text-justify: inter-word;
+	margin-top: 3rem;
+
+}
+
+.line-border{
+	border: 1px solid #E6E6E6;
+}
+
+.house-input{
+	border-top: 1px solid gray;
+}
+
+.house-input input{
+	margin-top: 1rem;
+	display: block;
+	margin: 0rem auto;
+	margin-top: 1rem;
+	margin-bottom: .5rem;
+	width: 330px;
+	height: 40px;
+	border: 1px solid gray;
+}
+
+.policy p{
+	text-justify: inter-word;
+	justify-content: center;
+	line-height: 12.2px;
+	font-size: x-small;
+	margin: .2rem;
+	padding: .2rem;
+	max-width: 330px;
+	padding-left: 2rem;
+}
+
+.sign-me-up button{
+	width: 110px;
+	height: 40px;
+	border-radius: 4px;
+	outline: none;
+	outline-style: none;
+	background-color: #0066F5;
+	color: white;
+	outline-style: none;
+	border: none;
+	cursor: pointer;
+	transition: background-color 1s ease-in , border 1s ease,  color 1s ease-in;
+	margin-left: 2rem;
+	margin-top: .6rem;
+}
+
+.sign-me-up button:hover {
+	border:  1.5px solid red;
+	background-color: transparent;
+	color: red;	
 }

@@ -1,0 +1,192 @@
+.filtercat{
+padding-left: 4rem;
+
+border: .2px solid #EFF2F5;
+}
+
+.post{
+	padding: 1.2rem
+}
+.categorysearch{
+	padding: 1.2rem;
+	width: 150px;
+	border: 0.1px solid  #EFF2F5;
+	background: transparent;
+	font-size: 1rem;
+
+}
+
+/* .wrapper-a{
+	display: flexbox;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+} */
+.general-container{
+	background-color: #FAFAFF;
+}
+.panel{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 1rem;
+justify-content: space-around;
+
+}
+.flex-items{
+	padding-bottom: 2rem;
+	/* padding-top: 2.8rem; */
+	background-size: contain;
+	background-color: #FAFAFF;
+	height: 470px;
+	box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	width: 379.98px;
+}  
+
+.flex-items{
+	padding-bottom: 2rem;
+	/* padding-top: 2.8rem; */
+	background-size: contain;
+	background-color: #FAFAFF;
+	height: 350px;
+	box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}  
+.flex-items:hover{
+	 box-shadow: 13px 15px 60px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transform: scale(1.01);
+}
+.blog_date-wrapper{
+	display: flex;
+	font-size: small;
+	margin-top: 0.8rem;
+	margin-bottom: 2rem;
+
+	
+}
+.blog-to-have-space{
+	padding-right: .6rem;
+		color: #4A6BFF;
+}
+
+.article-wrapper .brief{
+	color:#13002D;
+	font-weight: bolder;
+	font-style: oblique;
+	padding-top: 2rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+	text-justify: inter-word;
+	justify-content: center;
+}
+
+.bannerlog{
+	display: flex;
+	justify-content: center;
+	flex: wrap;
+	padding: 0;
+	margin-top: 2.5rem;
+}
+
+
+.bannerblog2{
+	background: linear-gradient(rgba(225, 225, 225, 0.1), rgba(225, 225, 225, 0.1)) #180339 ;
+	height: 276px;
+	width: 435.27px;
+}
+
+.bannerblog2 h3{
+ display: block;
+ color: white;
+ font-weight: bold;
+ font-size: 1.5rem;
+ margin: 0;
+ padding: 0;
+ letter-spacing: 0.4rem;
+}
+
+.bannerblog2 h5{
+	color: white;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+.bring-it-down{
+	margin-top: 3rem;
+	padding-left: 2rem;
+}
+
+.create-event{
+	background-color: #0066F5;
+	border: none;
+	margin-top: 1.3rem;
+	width:  8rem;
+	height: 2rem;
+	color: white;
+	font: x-large;
+	border-radius: .4rem;
+	cursor: pointer;
+}
+.create-event:hover{
+	background-color: transparent;
+	color: red;
+	border-radius: .4rem;
+	border:  1px solid red;
+	cursor: pointer;
+}
+
+
+.banner-gradient h3{
+	margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 575px){
+	.bannerlog{
+	display: flex;
+	justify-content: center;
+	flex: wrap;
+	flex-direction: column;
+	padding: 2rem;
+	margin-top: 2.5rem;
+	
+}
+
+
+.bannerblog2{
+	background: linear-gradient(rgba(225, 225, 225, 0.1), rgba(225, 225, 225, 0.1)) #180339 ;
+ width: 302.78px;
+}
+}
+
+
+.loadmore {
+	text-align: center;
+	align-items: center;
+	display: block;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.loadmore button{
+	border: none;
+	background-color: #0066F5;
+	width: 7rem;
+	height: 3rem;
+	color: white;
+	font-weight: bolder;
+	border-radius: .5rem;
+}
+.loadmore button:hover{
+	background-color:transparent;
+	border:  1px solid red;
+	color: red;
+		border-radius: .5rem;
+
+}

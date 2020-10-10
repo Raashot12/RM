@@ -1,0 +1,328 @@
+.footer-parent{
+	background: url(./header-bg.svg);
+	color:whitesmoke;
+	opacity: 8;
+	width:100%;
+	margin: 0;
+	height: 468px;
+	background-color:  #0066F5;
+}
+.footer-parent2{
+
+	justify-content: center;
+	margin-left: 190px;
+	
+	padding-top: 3rem;
+}
+
+.webinar-parent{
+	display: block;
+	font-size: x-large;
+	/* border-bottom: 2px solid whitesmoke; */
+	/* border-bottom-right-radius: 4rem; */
+	width: 55rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid whitesmoke;
+}
+.webinar-parent a{
+	margin-left: 1.3rem;
+	border-radius: 2px;
+	border: 3px solid wheat;
+	text-decoration: none;
+	outline: none;
+	color:whitesmoke;
+	padding: 0.5rem;
+	
+}
+
+#let-start {
+	display:none;
+}
+
+.container1{
+	display: flex;
+	transform: translate( );
+	
+}
+.account-container{
+	/* margin-right:15rem ; */
+	width:320px;
+	display: block;
+}
+
+.fab{
+	color:whitesmoke;
+	transform: scaleX(2.6);
+	transform: scaleY(1.6);
+	padding-right: 1.5rem;
+}
+
+.privacy-page{
+	display: flex;
+	padding-top: 1.5rem;
+}
+
+.privacy-page li{
+	text-decoration: none;
+	list-style-type: none;
+	padding-right: 1.5rem;
+}
+
+
+@media screen and (max-width: 1024px){
+
+.footer-parent{
+		background: url(./header-bg.svg);
+	color:  whitesmoke;
+	width:100%;
+	margin: 0;
+	height: 468px;
+		background-color:  #0066F5;
+}
+.footer-parent2{
+	justify-content: center;
+	margin-left: 90px;
+	padding-top: 3rem;
+}
+
+.webinar-parent{
+	display: block;
+	font-size: x-large;
+	/* border-bottom: 2px solid whitesmoke; */
+	/* border-bottom-right-radius: 4rem; */
+	width: 55rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid whitesmoke;
+}
+.webinar-parent a{
+	margin-left: 1.3rem;
+	border-radius: 2px;
+	border: 3px solid wheat;
+	text-decoration: none;
+	outline: none;
+	color: whitesmoke;
+	padding: 0.5rem;
+}
+
+.container1{
+	display: flex;
+	transform: translate( );
+	
+}
+.account-container{
+	/* margin-right:15rem ; */
+	width:320px;
+	display: block;
+}
+
+.fab{
+	color:whitesmoke;
+	transform: scaleX(2.6);
+	transform: scaleY(1.6);
+	padding-right: 1.5rem;
+}
+
+.privacy-page{
+	display: flex;
+	padding-top: 1.5rem;
+}
+
+.privacy-page li{
+	text-decoration: none;
+	list-style-type: none;
+	padding-right: 1.5rem;
+}
+
+
+}
+
+@media screen and (max-width: 921px){
+
+.footer-parent{
+	background-color:  #0066F5;
+	width:100%;
+	margin: 0;
+	height: 468px;
+}
+.footer-parent2{
+
+	justify-content: center;
+	margin: 0;
+	padding-left: 1.2rem;
+	padding-top: 3rem;
+}
+
+.webinar-parent{
+	display: block;
+	font-size: x-large;
+	/* border-bottom: 2px solid whitesmoke; */
+	/* border-bottom-right-radius: 4rem; */
+	width: 39rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid whitesmoke;
+}
+.webinar-parent a{
+	margin-left: 1.3rem;
+	border-radius: 2px;
+	border: 3px solid wheat;
+	text-decoration: none;
+	outline: none;
+	color: whitesmoke;
+	padding: 0.5rem;
+}
+
+.container1{
+	display: flex;
+	transform: translate( );
+	
+}
+.account-container{
+	/* margin-right:15rem ; */
+	width:232px;
+	display: block;
+}
+
+.fab{
+	color:whitesmoke;
+	transform: scaleX(2.6);
+	transform: scaleY(1.6);
+	padding-right: 1.5rem;
+}
+
+.privacy-page{
+	display: flex;
+	padding-top: 1.5rem;
+}
+
+.privacy-page li{
+	text-decoration: none;
+	list-style-type: none;
+	padding-right: 1.5rem;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 750px){
+
+.footer-parent{
+	background-color:  #0066F5;
+	color: #ffffff;
+	width:100%;
+	margin: 0;
+	height: 760px;
+}
+.footer-parent2{
+
+	justify-content: center;
+	margin: 0;
+	padding-left: 1.2rem;
+	padding-top: 3rem;
+}
+
+.webinar-parent{
+	display: block;
+	font-size: x-large;
+	/* border-bottom: 2px solid whitesmoke; */
+	/* border-bottom-right-radius: 4rem; */
+	width: 43rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid whitesmoke;
+}
+.webinar-parent a{
+	margin-left: 1.3rem;
+	border-radius: 2px;
+	border: 3px solid wheat;
+	text-decoration: none;
+	outline: none;
+	color: whitesmoke;
+	padding: 0.5rem;
+}
+
+.container1{
+	display: block;
+	transform: translate( );
+	
+}
+.account-container{
+	/* margin-right:15rem ; */
+	width:232px;
+	display: block;
+}
+
+.fab{
+	color:whitesmoke;
+	transform: scaleX(2.6);
+	transform: scaleY(1.6);
+	padding-right: 1.5rem;
+}
+
+.privacy-page{
+	display: flex;
+	padding-top: 1.5rem;
+}
+
+.privacy-page li{
+	text-decoration: none;
+	list-style-type: none;
+	padding-right: 1rem;
+}
+
+
+}
+
+@media screen and (max-width: 558px){
+	.main-webinar{
+		display: none;
+		margin: auto;
+		color:  #ffffff;
+	}
+
+.webinar-parent{
+	display: none;
+}
+.footer-parent{
+	background: url(./header-bg.svg);
+	color: #ffffff;
+	width:100%;
+	margin: 0;
+	height: 800px;
+	background-color:  #0066F5;
+}
+.footer-parent2{
+
+	justify-content: center;
+	margin: 0;
+	padding-left: 1.2rem;
+	padding-top: 3rem;
+}
+
+#let-start {
+align-items: center;
+display: contents;
+display: inline-block; 
+text-align: center;
+width: 95%;
+font-weight: 700;
+font-size: larger;
+margin: 0;
+padding-bottom: 1rem;
+text-rendering: optimizeLegibility;
+color:  whitesmoke;
+border-bottom: 1px solid seashell;
+}
+
+	.privacy-page{
+	display: flex;
+	padding-top: 1.5rem;
+}
+
+.privacy-page li{
+	text-decoration: none;
+	list-style-type: none;
+	padding-right: 1rem;
+}
+
+}
