@@ -14,7 +14,7 @@ import Goal from "./Components/pages/Signupflow/Goal"
 import RenderCheckbox from "./Components/pages/Signupflow/Interest/RenderCheckbox"
 import Topics from "./Components/pages/Signupflow/Interest/Topics"
 import Blog from "./Components/pages/Blog/Blog"
-
+import NavigationForNotLoggedin from "./Components/pages/Event&Page/NavigationForNotLoggedin"
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
 				  <Route path="/interestchecked" component={RenderCheckbox} exact />
 				  <Route path="/topics" component={Topics} exact />
 				  <Route path= "/blog" component={Blog} exact	/>
-				  
+				  <Route path="/event" component={NavigationForNotLoggedin} exact / >
 					</Switch>
 	</Router>
 	  </div>

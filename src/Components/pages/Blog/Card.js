@@ -13,7 +13,7 @@ import {Link} from "react-router-dom"
 
 						<div className="boxxx" style={{
 							background: `url(${"https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2020/07/register-to-vote_blog-post-screenshot-copy-2-1.png"})`,
-							height: "209px", width: "379.98px",
+							height: "209px", width: "360px",
 							backgroundSize: 'cover',
 							backgroundRepeat: 'no-repeat',
 							borderRadius: "4px",
@@ -31,7 +31,7 @@ import {Link} from "react-router-dom"
 							</div>
 							<div>
 								<span className="brief">
-									Ticket to Vote: Add Free Voter Registration to<br></br> Your Events With HeadCount
+									Ticket to Vote: Add Free Voter Registration<br></br> to Your Events With HeadCount
 																		</span>
 							</div>
 						</div>
@@ -41,7 +41,7 @@ import {Link} from "react-router-dom"
 
 						<div className="boxxx" style={{
 							background: `url(${"https://images.unsplash.com/flagged/photo-1565250264517-c244ad3ea7b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"})`,
-							height: "209px", width: "379.98px",
+							height: "209px", width: "360px",
 							backgroundSize: 'cover',
 							backgroundRepeat: 'no-repeat',
 							borderRadius: "4px",

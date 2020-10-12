@@ -44,7 +44,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2020/10/IMG_4163.jpeg"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -72,7 +72,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://images.unsplash.com/flagged/photo-1565250264517-c244ad3ea7b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -101,7 +101,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://images.unsplash.com/photo-1529847556963-9653a9366021?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=525&q=60"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -130,7 +130,7 @@ export default class Blogfilter extends Component {
 				<section className="bannerlog" >
 					<div className="bannerblog1" style={{
 						background: `url(${"https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2018/10/6945-blog-images-08.png"})`,
-						height: "276px", width: "302.78px",
+						height: "276px", width: "302.98px",
 						backgroundSize: 'cover',
 						backgroundRepeat: 'no-repeat',
 						// position:"relative"
@@ -159,7 +159,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2020/10/IMG_4163.jpeg"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -187,7 +187,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://images.unsplash.com/flagged/photo-1565250264517-c244ad3ea7b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -216,7 +216,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://images.unsplash.com/photo-1529847556963-9653a9366021?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=525&q=60"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -248,7 +248,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/3/2020/10/IMG_4163.jpeg"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -276,7 +276,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://images.unsplash.com/flagged/photo-1565250264517-c244ad3ea7b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
@@ -305,7 +305,7 @@ export default class Blogfilter extends Component {
 
 							<div className="boxxx" style={{
 								background: `url(${"https://images.unsplash.com/photo-1529847556963-9653a9366021?ixlib=rb-1.2.1&dpr=1&auto=format&fit=crop&w=525&q=60"})`,
-								height: "209px", width: "379.98px",
+								height: "209px", width: "360px",
 								backgroundSize: 'cover',
 								backgroundRepeat: 'no-repeat',
 								borderRadius: "4px",
