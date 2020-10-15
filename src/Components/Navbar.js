@@ -1,17 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import {  Link } from 'react-router-dom';
 import Roll from 'react-reveal/Roll';
 import './Navbar.css';
 // import Signup from './Components/pages/Signup&Login/Signup';
 import logo from './logo.png';
 import Dropdown from './Dropdown';
-import Dropdowns from './Dropdowns'
+import Dropdowns from './Dropdowns';
+import Context from "../store/context"
 
 function Navbar() {
 	const [click, setClick] = useState(false);
 	const [dropdown, setDropdown] = useState(false);
-	const [dropdowns, setDropdowns] = useState(false);
-
+	const [dropdowns, setDropdowns] = useState(false);	
+	const {globalState, globalDispatch } = useContext(Context);
 	const handleClick = () => setClick(!click);
 	// const closeMobileMenu = () => setClick(false);
 
@@ -121,10 +122,11 @@ function Navbar() {
 					</li>
 				</ul>
 			
-				{/* <button className='btn2'><Link to='/Sign-up'>Sign Up</Link></button> */}
-				<Link to="/Signup"><button type="button" className="btn2">Sign Up</button></Link>
+					
+							<Link to="/Signup"><button type="button" className="btn2">Sign Up</button></Link>
 				
 				<Link to="/Login">
+					
 				<button className='btn'>Log in</button>
 				</Link>
 			

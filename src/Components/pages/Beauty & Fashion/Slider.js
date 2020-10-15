@@ -12,6 +12,8 @@ import contacts from './Data'
 			topics={contact.topic}
 			company={contact.companyName}
 			attend={contact.attendeesNumber}
+				time={contact.time}
+				title= {contact.title}
 			/>
 		</div>
 	)
@@ -31,7 +33,7 @@ export default function SliderBeautyFashion() {
 				</BrowserRouter>
 			</li>
 		</div>
-		{contacts.map(createCard)}
+		{contacts.map(createCard )}
 		</div>
 	)
 }

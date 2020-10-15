@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import logo from './lolo.svg'
 import { Link } from 'react-router-dom';
 import { FaFacebook } from 'react-icons/fa';
@@ -6,31 +6,29 @@ import { SiGmail } from 'react-icons/si';
 import Footer from "./Footer";
 import "./Login.css"
 import Navbar from '../Navigation/Navbar';
+import useLogin from "./useLogin"
+// import validateLogin from "./validateLogin"
 
 
+const  Login = ( )=>{
 
-export default class Login extends Component {
-	state = {
-		firstName: "",
-		lastName: "",
-		email: "",
-		phone: "",
-		username: "",
-		password: "",
-		remember: false,
+	const { handleSubmit, handleChange, login } = useLogin(submit)
+
+	// const doSomething = () =>{
+	
+		// const {email, password} = login;
+		
+	// 	if (  email.length === 0 || password.length  < 10 ){
+	// 	return true  
+	// 	} else 
+	// 		return false;
+	// }
+
+	 function submit() {
+	
 	}
-	handleSubmit = (event) => {
-		event.preventDefault()
-		console.log(event.target.value)
-	}
 
-	handleChange = (event) => {
-		this.setState({
-			[event.target.name]: event.target.value,
-			remember: true,
-		})
-	}
-	render() {
+
 		return (
 			<>
 			<Navbar/>
@@ -40,25 +38,22 @@ export default class Login extends Component {
 						<div className="welcome">					
 						<h3 >Welcome Back!</h3>
 						</div>
-					<form action='https://sua-viewon-dev.herokuapp.com' method="POST" onSubmit={this.handleSubmit} className="form_parent">
+						<form onSubmit={handleSubmit} className="form_parent">
 
 						<span>
-							<input type="email" name="email" value={this.state.email} required size="50" onChange={this.handleChange} />
+								<input type="email" name="email" value={login.email} size="50" required onChange={handleChange} />
 							<p>Email address</p>
 							<label ><i class="fas fa-envelope"></i></label>
 						</span>
-
 						<span>
-							<input type="password" name="password" value={this.state.password} required size="50" onChange={this.handleChange} />
+								<input type="password" name="password" value={login.password} size="50" required onChange={handleChange}  />
 							<p>Password</p>
 							<label ><i className="fas fa-lock"></i></label>
 						</span>
-
-						<label>
-							<input type="checkbox" value={this.state.remember} onChange={this.handleChange} name="remember" style={{ marginBottom: "2px" }} /> Remember me
-							</label>
+					
 						<div>
-							<Link to="/ignup"><button type="button" className="btn10">Log in</button></Link>
+				<button type="submit" className="btn10" style={{marginTop: "15px"}}>Log in</button>
+							
 						</div>
 
 						<div className='withtheflowing' >or with the following:</div>
@@ -80,4 +75,12 @@ export default class Login extends Component {
 			</>
 		)
 	}
-}
+export default Login;
+
+
+
+
+
+
+
+

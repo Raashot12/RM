@@ -2,111 +2,99 @@
 import "./Footer.css"
 import logo from './lolo.svg'
 import {Link } from 'react-router-dom';
-import React, { Component } from 'react';
+import React  from 'react';
 import { FaFacebook } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import Footer from "./Footer";
 import './Signup.css'
-
 import Navbar from '../Navigation/Navbar';
+import useForm from "./useForm"
+import validates from "./validatesignup"
 
 
 
 
-export default class Signup extends Component {
-			state ={
-				firstName : "",
-				lastName: "",
-				email: "",
-				phone:"",
-				username: "",
-				password: "",
-				checked: false,
-			}
-handleSubmit = (event )  =>{
-	 event.preventDefault()
-	 console.log(this.state)
-	 this.handleClick();
-	 this.setState({
-		 firstName: "",
-		 lastName: "",
-		 email: "",
-		 phone: "",
-		 username: "",
-		 password: "",
 
-		 
-	 })
-}
 
-handleChange = (event) =>{
-	console.log(event.target.value)
-	this.setState({
-			[event.target.name ] : event.target.value,
-			
-	})
 
-}
-	handleClick = ()=>{
-		if (!this.state.firstName || !this.state.lastName || !this.state.email || !this.state.phone || !this.state.username
-			|| !this.state.password){
-			alert("please do fill the form to register")
-			return
+ export const Signup = () =>{
+	 const { handleSubmit, handleChange, values, checked, errors } = useForm(  submit, validates)
+	const { email, firstName, lastName, password, password2, phone, username }= values
+		function doSomething(){
+	
+			if ( email === "" || firstName ===""  || lastName === "" || password === ""  || password2 ===""  || phone === "" || username ===""){
+				return true
+			}else 
+			return false ;
+	
 		}
-	}
-	handleCheckbox = ()=> {
-		this.setState({ checked: !this.state.checked });
-	}
+	 function submit(){
+		 
+	
+		 ///call back functiton
+	 }
 
 
-	render() {
+	
+
+
 		return (
 			< >
+
+				<div className="signupwrapper">
 				<Navbar />
 					<section className="signup-parent">
 						<div className="loginForm">
 							<img src={logo} className="App-logo" alt="logo" />
-							<form action='https://sua-viewon-dev.herokuapp.com' method="POST" onSubmit={this.handleSubmit} className="form_parent">
-
-
+							<form    onSubmit={handleSubmit} className="form_parent">
 							<span>
-								<input type="text" name="firstName" value={this.state.firstName} required size="50" onChange={this.handleChange} />
+								<input type="text" name="firstName" value={values.firstName} onChange={handleChange}  size="50"  />
 								<p>First Name</p>
 								<label ><i class="fas fa-user"></i></label>
 							</span>
-
+								{errors.firstName && <p className="errors"> {errors.firstName}</p>}
 							<span>
-								<input type="text" name="lastName" value={this.state.lastName} required size="50" onChange={this.handleChange} />
+								<input type="text" name="lastName" value={values.lastName} onChange={handleChange}  size="50"/>
 								<p>Last Name</p>
 								<label ><i className="fas fa-user"></i></label>
 							</span>
+								{errors.lastName && <p className="errors"> {errors.lastName}</p>}
 								<span>
-									<input type="email" name="email" value={this.state.email} required size="50" onChange={this.handleChange} />
+								<input type="email" name="email" value={values.email} onChange={handleChange}  size="50"  />
 									<p>Email address</p>
 									<label ><i class="fas fa-envelope"></i></label>
 								</span>
+								{errors.email && <p className="errors"> {errors.email}</p>}
 							<span>
-								<input type="tel" name="phone" value={this.state.phone} required size="50" onChange={this.handleChange} />
+								<input type="tel" name="phone" value={values.phone} onChange={handleChange}  size="50"  />
 								<p>Phone Number</p>
 								<label ><i className="fas fa-phone-volume"></i></label>
 							</span>
+								{errors.phone && <p className="errors"> {errors.phone}</p>}
 							<span>
-								<input type="text" name="username" value={this.state.username} required size="50" onChange={this.handleChange} />
+								<input type="text" name="username" value={values.username} onChange={handleChange} size="50" />
 								<p>Username</p>
 								<label ><i className="fas fa-user"></i></label>
 							</span>
-
+								{errors.username && <p className="errors"> {errors.username}</p>}
 								<span>
-									<input type="password" name="password" value={this.state.password} required size="50" onChange={this.handleChange} />
+								<input type="password" name="password" value={values.password} onChange={handleChange}  size="50"  />
 									<p>Password</p>
 									<label ><i className="fas fa-lock"></i></label>
 								</span>
-
+								{errors.password && <p className="errors"> {errors.password}</p>}
+								<span>
+									<input type="password" name="password2" value={values.password2} onChange={handleChange}  size="50" />
+									<p>Confirm Password</p>
+									<label ><i className="fas fa-lock"></i></label>
+								</span>
+								{errors.password2 && <p className="errors"> {errors.password2}</p>}
+							
 								<label>
-								<input type="checkbox" name="checked" value={this.state.checked} onClick={this.handleCheckbox} style={{ marginBottom: "2px" }} /> Remember me  
+								<input type="checkbox" name="checked" value={checked} onChange={handleChange}  style={{ marginBottom: "2px" }} /> Remember me  
 							</label>
 								<div>
-									<button type="submit" className="btn10" onClick={this.handleClick}>Sign up</button>
+									<button type="submit" className="btn10" disabled={doSomething()}>Sign up</button>
 								</div>
 
 								<div className='withtheflowing' >or with the following:</div>
@@ -125,8 +113,12 @@ handleChange = (event) =>{
 						</div>
 						<Footer />
 					</section>
+					</div>
 			</>
 		)
-	}
-}
+} 
+export default Signup;
+
+
+
 

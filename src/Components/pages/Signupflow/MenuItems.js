@@ -9,14 +9,5 @@ export const MenuItems = [
     path: '/cost-to-create-event',
     cName: 'dropdown-link'
   },
-  {
-    title: 'How do we contact event organizer?',
-    path: '/contact-event-organizer',
-    cName: 'dropdown-link'
-  },
-  {
-    title: 'Help Center',
-    path: '/help-center',
-    cName: 'dropdown-link'
-  }
+  
 ];

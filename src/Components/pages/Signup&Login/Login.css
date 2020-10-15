@@ -1,6 +1,4 @@
 
-
-
 .signup-parent{
 	background: url(./header-bg.svg);
 }
@@ -11,4 +9,8 @@
 	color: slategray;
 	font-size: xx-large;
 
+}
+.errors{
+	color: red;
+	font-size: .5rem;
 }

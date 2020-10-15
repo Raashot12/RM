@@ -3,7 +3,7 @@ import './Header.css'
 import Bounce from 'react-reveal/Bounce'
 import Navbar from "../Navbar"
 import {Link } from  "react-router-dom"
-
+import Filter from "./Filter"
 
 
 
@@ -33,7 +33,9 @@ const Header = () => {
 				<a href="#popup" >Join RM</a>
 			</div>
 			{/* <button className=' btn-header ' id="popup" >Join RM </button> */}
+				<Filter />
 		</div>
+	
 	</>
 	)
 }

@@ -14,12 +14,20 @@ import Goal from "./Components/pages/Signupflow/Goal"
 import RenderCheckbox from "./Components/pages/Signupflow/Interest/RenderCheckbox"
 import Topics from "./Components/pages/Signupflow/Interest/Topics"
 import Blog from "./Components/pages/Blog/Blog"
-import NavigationForNotLoggedin from "./Components/pages/Event&Page/NavigationForNotLoggedin"
+import NavigationForNotLoggedin from "./Components/pages/Event&Page/NavigationForNotLoggedin";
+import GlobalStateProvider from "./store/GlobalStateProvider";
+import { toast } from "react-toastify";
 
+
+
+
+
+toast.configure();
 function App() {
   return (
 	<div>
-    <Router>
+		 < GlobalStateProvider>
+		     <Router>
 	
 
 		<Switch>
@@ -28,13 +36,15 @@ function App() {
 			<Route path="/Signup" component={Signup} exact/>
 			<Route path="/ResetPassword" component={ResetPassword} exact />
 			<Route path="/Signupflow" component={Signupflow} exact />
-				 <Route path="/Goal" component={Goal}  />
-				  <Route path="/interestchecked" component={RenderCheckbox} exact />
-				  <Route path="/topics" component={Topics} exact />
-				  <Route path= "/blog" component={Blog} exact	/>
-				  <Route path="/event" component={NavigationForNotLoggedin} exact / >
-					</Switch>
+			<Route path="/Goal" component={Goal}  />
+			 <Route path="/interestchecked" component={RenderCheckbox} exact />
+			 <Route path="/topics" component={Topics} exact />
+			 <Route path= "/blog" component={Blog} exact	/>
+			 <Route path="/event" component={NavigationForNotLoggedin} exact / >
+			</Switch>
 	</Router>
+		  </GlobalStateProvider>
+
 	  </div>
 
   );

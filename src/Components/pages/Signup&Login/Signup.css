@@ -1,8 +1,8 @@
-
-
-.signup-parent{
+.signupwrapper{
 	background: url(./header-bg.svg);
 }
+
+
 
 .loginForm {
 	text-decoration: none;
@@ -16,7 +16,7 @@
 	margin: 60px auto;
 	position: relative;	
 	box-shadow: 1.3rem 1.3rem 1.3rem 1.3rem whitesmoke;
-	max-height: 820px;
+	max-height: 1300px;
 }
 
 .loginForm span {
@@ -158,7 +158,7 @@ span label::after {
   outline: none;
   border: none;
   font-size: 18px;
-  color: red;
+  color: white;
   background-color: #0066F5;
   text-align: center;
 }
@@ -235,25 +235,9 @@ align-content: center;
 
 
 
-.App {
-  text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(20deg);
-  }
-}
+
 .withtheflowing{
 	text-align: center;
 }

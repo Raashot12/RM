@@ -92,7 +92,7 @@ max-width: 500px;
 	border: none;
 
 }
-.fa-search{
+.inputfield-parent .fa-search{
 	position: absolute;
 	align-items: center;
 	display: flex !important;
