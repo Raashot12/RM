@@ -5,17 +5,19 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: 16px;	
+  font-size: 16px;
+  font-family: 'Lato', sans-serif !important;
   letter-spacing: normal;
   line-height: normal;
   text-shadow: none;
   shape-outside: none;
-  
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-*:focus{
-	outline:none
+*:focus {
+  outline: none;
 }
