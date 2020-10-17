@@ -1,0 +1,14 @@
+.MuiTextField-root input,
+.MuiOutlinedInput-input input {
+  /* 14.5px = 18.5px - 4px (note: 18.5px is the input's default padding top and bottom) */
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+}
+
+.MuiTextField-root label {
+  top: -4px;
+}
+
+.MuiTextField-root label[data-shrink='true'] {
+  top: 0;
+}
