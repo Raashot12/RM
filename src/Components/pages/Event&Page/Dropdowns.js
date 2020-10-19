@@ -3,8 +3,6 @@ import { OrganizeItems } from './OrganizerItems';
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
-
-
 function Dropdowns() {
 	const [click, setClick] = useState(false);
 

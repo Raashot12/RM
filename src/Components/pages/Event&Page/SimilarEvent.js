@@ -4,10 +4,9 @@ import "./SimilarEvent.css";
 
 
 
-
 export default function SimilarEvent(props) {
   const { similar } = props;
-   
+ 
   return (
     <div>
       <div className="similar-event-container">

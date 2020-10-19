@@ -1,106 +1,142 @@
-import React from "react";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import InputBase from "@material-ui/core/InputBase";
-import { fade, makeStyles } from "@material-ui/core/styles";
-import SearchIcon from "@material-ui/icons/Search";
+
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Roll from "react-reveal/Roll";
+import "./Navbar.css";
+// import Signup from './Components/pages/Signup&Login/Signup';
+import logo from "./logo.png";
+import Dropdown from "./Dropdown";
+import Dropdowns from "./Dropdowns";
 import EventPage from "./EventPage"
-import {Link} from "react-router-dom"
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-    display: "none",
-    [theme.breakpoints.up("sm")]: {
-      display: "block",
-    },
-  },
-  search: {
-    position: "relative",
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
-    "&:hover": {
-      backgroundColor: fade(theme.palette.common.white, 0.25),
-    },
-    marginLeft: 0,
-    width: "100%",
-    [theme.breakpoints.up("sm")]: {
-      marginLeft: theme.spacing(1),
-      width: "auto",
-    },
-  },
-  searchIcon: {
-    padding: theme.spacing(0, 2),
-    height: "100%",
-    position: "absolute",
-    pointerEvents: "none",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  inputRoot: {
-    color: "inherit",
-  },
-  inputInput: {
-    padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
-    transition: theme.transitions.create("width"),
-    width: "100%",
-    [theme.breakpoints.up("sm")]: {
-      width: "12ch",
-      "&:focus": {
-        width: "20ch",
-      },
-    },
-  },
-}));
+function PrimarySearchAppBar() {
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+  const [dropdowns, setDropdowns] = useState(false);
+  // const {globalState, globalDispatch } = useContext(Context);
+  const handleClick = () => setClick(!click);
+  // const closeMobileMenu = () => setClick(false);
 
-export default function SearchAppBar() {
-  const classes = useStyles();
+  const onMouseEnter = () => {
+    if (window.innerWidth > 960) {
+      setDropdown(true);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth > 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
+
+  const onMouseEnters = () => {
+    if (window.innerWidth > 960) {
+      setDropdowns(true);
+    } else {
+      setDropdowns(true);
+    }
+  };
+
+  const onMouseLeaves = () => {
+    if (window.innerWidth > 960) {
+      setDropdowns(false);
+    } else {
+      setDropdowns(false);
+    }
+  };
 
   return (
-    <div>
-      <AppBar style={{ background: "#0066F5", position: "static" }}>
-        <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            color="inherit"
-            aria-label="open drawer"
-          ></IconButton>
-          <Link to="/" >
-            <Typography className={classes.title} variant="h6" noWrap>
-              RM
-            </Typography>
-          </Link>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              inputProps={{ "aria-label": "search" }}
+    <>
+      <nav className="navbar" id="BackHome">
+        <Link to="/" className="navbar-logo">
+          <Roll>
+            <img
+              src={logo}
+              className="image-logo"
+              alt="company-logo"
+              width="90px"
+              height="43px"
             />
-          </div>
-          <button style={{ marginLeft: "5rem" }}>Creat event</button>
-          <button>Login</button>
-          <button>Sign up</button>
-        </Toolbar>
-      </AppBar>
+          </Roll>
+        </Link>
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li
+            className="nav-item"
+            onMouseEnter={onMouseEnters}
+            onMouseLeave={onMouseLeaves}
+          >
+            <Link
+              className="nav-links"
+              // onClick={closeMobileMenu}
+            >
+              Organize <i className="fas fa-caret-down" />
+            </Link>
+            {dropdowns && <Dropdowns />}
+          </li>
+          <li
+            className="nav-item"
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
+            <Link
+              className="nav-links"
+              // onClick={closeMobileMenu}
+            >
+              Services <i className="fas fa-caret-down" />
+            </Link>
+            {dropdown && <Dropdown />}
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/create-events"
+              className="nav-links"
+              // onClick={closeMobileMenu}
+            >
+              +Create Events
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/Login"
+              className="nav-links-mobile"
+              // onClick={closeMobileMenu}
+            >
+              LOG IN
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/Signup"
+              className="nav-links-mobile"
+              // onClick={closeMobileMenu}
+            >
+              SIGN UP
+            </Link>
+          </li>
+        </ul>
+
+        <Link to="/Signup">
+          <button type="button" className="btn2">
+            Sign Up
+          </button>
+        </Link>
+
+        <Link to="/Login">
+          <button className="btn">Log in</button>
+        </Link>
+      </nav>
       <EventPage />
-    </div>
+    </>
   );
 }
+
+export default PrimarySearchAppBar;
+
