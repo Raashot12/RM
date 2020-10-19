@@ -85,7 +85,7 @@ const BasicInfo = () => {
           variant='subtitle1'
           className={clsx(classes.inputTitle, classes.marginTop)}
         >
-          What is the name of your event?
+          What is the name of this event?
         </Typography>
         <TextField
           label='Event title'

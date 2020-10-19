@@ -31,11 +31,7 @@ function App() {
           <Route path='/topics' component={Topics} exact />
           <Route path='/blog' component={Blog} exact />
           <Route path='/event' component={NavigationForNotLoggedin} exact />
-          <Route
-            path='/create-event/basic-info'
-            component={createEvent}
-            exact
-          />
+          <Route path='/create-event/:id' component={createEvent} exact />
         </Switch>
       </Router>
     </div>
