@@ -13,10 +13,10 @@ export default function validatesignup(values ){
 		errors.password = "Password need to be more than 6 characters'";
 	}
 
-	if (!values.password2) {
-		errors.password2 = 'Password is required';
-	} else if (values.password2 !== values.password) {
-		errors.password2 = 'Passwords do not match';
+	if (!values.confirmPassword) {
+		errors.confirmPassword = 'Password is required';
+	} else if (values.confirmPassword !== values.password) {
+		errors.confirmPassword = 'Passwords do not match';
 	}
 
 	if (!values.firstName){

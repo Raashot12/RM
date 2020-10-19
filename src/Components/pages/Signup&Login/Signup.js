@@ -18,11 +18,11 @@ import validates from "./validatesignup"
 
 
  export const Signup = () =>{
-	 const { handleSubmit, handleChange, values, checked, errors } = useForm(  submit, validates)
-	const { email, firstName, lastName, password, password2, phone, username }= values
+	 const { handleSubmit, handleChange, values, checked,  errors } = useForm(  submit, validates)
+	const { email, firstName, lastName, password,confirmPassword, phone, username }= values
 		function doSomething(){
 	
-			if ( email === "" || firstName ===""  || lastName === "" || password === ""  || password2 ===""  || phone === "" || username ===""){
+			if ( email === "" || firstName ===""  || lastName === "" || password === ""  || confirmPassword ===""  || phone === "" || username ===""){
 				return true
 			}else 
 			return false ;
@@ -84,11 +84,11 @@ import validates from "./validatesignup"
 								</span>
 								{errors.password && <p className="errors"> {errors.password}</p>}
 								<span>
-									<input type="password" name="password2" value={values.password2} onChange={handleChange}  size="50" />
+									<input type="password" name="confirmPassword" value={values.confirmPassword} onChange={handleChange}  size="50" />
 									<p>Confirm Password</p>
 									<label ><i className="fas fa-lock"></i></label>
 								</span>
-								{errors.password2 && <p className="errors"> {errors.password2}</p>}
+								{errors.confirmPassword && <p className="errors"> {errors.confirmPassword}</p>}
 							
 								<label>
 								<input type="checkbox" name="checked" value={checked} onChange={handleChange}  style={{ marginBottom: "2px" }} /> Remember me  

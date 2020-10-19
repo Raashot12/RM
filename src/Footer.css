@@ -1,5 +1,5 @@
 .footer-parent{
-	background: url(./header-bg.svg);
+	/* background: url(./header-bg.svg); */
 	color:whitesmoke;
 	opacity: 8;
 	width:100%;
@@ -72,7 +72,7 @@
 @media screen and (max-width: 1024px){
 
 .footer-parent{
-		background: url(./header-bg.svg);
+		/* background: url(./header-bg.svg); */
 	color:  whitesmoke;
 	width:100%;
 	margin: 0;
@@ -284,7 +284,7 @@
 	display: none;
 }
 .footer-parent{
-	background: url(./header-bg.svg);
+	/* background: url(./header-bg.svg); */
 	color: #ffffff;
 	width:100%;
 	margin: 0;

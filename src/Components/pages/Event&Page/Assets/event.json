@@ -15,7 +15,9 @@
 		"dateto": "Monday, October 26, 2020",
 		"time": "7:00 PM to 8:30 PM GMT+1",
 		"datetoandtimeto": "Mon, Oct 26 · 7:00 PM GMT+1",
-		"payment": "Free" ,
-		"hostimage": "https://secure.meetupstatic.com/photos/member/2/7/2/b/thumb_301510027.jpeg"
+		"payment": "Free",
+		"hostimage": "https://secure.meetupstatic.com/photos/member/2/7/2/b/thumb_301510027.jpeg",
+		"attendees": "43",
+		"type": "Online event"
 	}
 ]

@@ -4,7 +4,6 @@
 }
 
 .welcome h3{
-	word-spacing: .5rem;
 	letter-spacing: 0.5rem;
 	color: slategray;
 	font-size: xx-large;
@@ -13,4 +12,15 @@
 .errors{
 	color: red;
 	font-size: .5rem;
+}
+
+@media screen and (max-width: 360px){
+	
+.welcome h3{
+
+	letter-spacing: 0.5rem;
+	color: slategray;
+	font-size: xx-large;
+
+}
 }

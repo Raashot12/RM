@@ -21,88 +21,134 @@ export default function Webinar(props) {
 
 
 	return (
-	
-		<>	
-		< div className ="slider-container">
-			<Carousel breakPoints={breakPoints}>
-				<Item>
-					<div>
-						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
-						<div className='text-element'>
-							<h4 className='date-year'>{props.time}</h4>
-							<h4 className='topics'>{props.title}</h4>
-							<h5 className='company-name'> {props.company}</h5>
-							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
-							<button className='btn5'  onClick={handleClick}>Read More...</button>
-						</div>
-					</div>
-				</Item>
-			
-			<Item>
-				<div>
-					<img className='webinar-img'src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
-					<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
-					<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
-					<h5 className='company-name'> {props.company}</h5>
-					<h6 className='attendees-number'>Attendees:{props.attend}</h6>
-							<button className='btn5'>Read More...</button>
-					</div>
-				</div>
-			</Item>
-			<Item>
-					<div>
-						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
-						<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
-							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
-							<h5 className='company-name'> {props.company}</h5>
-							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
-							<button className='btn5'>Read More...</button>
-						</div>
-					</div>
-			</Item>
-				<Item>
-					<div>
-						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
-						<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
-							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
-							<h5 className='company-name'> {props.company}</h5>
-							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
-							<button className='btn5'>Read More...</button>
-						</div>
-					</div>
-			</Item>
-				<Item>
-						<div>
-							<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
-							<div className='text-element'>
-								<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
-								<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
-								<h5 className='company-name'> {props.company}</h5>
-								<h6 className='attendees-number'>Attendees:{props.attend}</h6>
-								<button className='btn5'>Read More...</button>
-							</div>
-						</div>
-			</Item>
-				<Item>
-					<div>
-						<img className='webinar-img' src={props.img} alt='Trader selling Goods' width='100%' height='140px' />
-						<div className='text-element'>
-							<h4 className='date-year'>24TH SEPT, 2020  5:00 PM WAT</h4>
-							<h4 className='topics'>The Role of SME in Economy<br></br> Growth</h4>
-							<h5 className='company-name'> {props.company}</h5>
-							<h6 className='attendees-number'>Attendees:{props.attend}</h6>
-							<button className='btn5'>Read More...</button>
-						</div>
-					</div>
-			</Item>
-			</Carousel>
-			</div>
-		</>
-		
-	)
+    <>
+      <div className="slider-container">
+        <Carousel breakPoints={breakPoints}>
+          <Item>
+            <div>
+              <img
+                className="webinar-img"
+                src={props.img}
+                alt="Trader selling Goods"
+                width="100%"
+                height="140px"
+              />
+              <div className="text-element">
+                <h4 className="date-year">{props.time}</h4>
+                <h4 className="topics">{props.title}</h4>
+                <h5 className="company-name"> {props.company}</h5>
+                <h6 className="attendees-number">Attendees:{props.attend}</h6>
+                <button className="btn5" onClick={handleClick}>
+                  Read More...
+                </button>
+              </div>
+            </div>
+          </Item>
+
+          <Item>
+            <div>
+              <img
+                className="webinar-img"
+                src={props.img}
+                alt="Trader selling Goods"
+                width="100%"
+                height="140px"
+              />
+              <div className="text-element">
+                <h4 className="date-year">{props.time}</h4>
+                <h4 className="topics">{props.title}</h4>
+                <h5 className="company-name"> {props.company}</h5>
+                <h6 className="attendees-number">Attendees:{props.attend}</h6>
+                <button className="btn5" onClick={handleClick}>
+                  Read More...
+                </button>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div>
+              <img
+                className="webinar-img"
+                src={props.img}
+                alt="Trader selling Goods"
+                width="100%"
+                height="140px"
+              />
+              <div className="text-element">
+                <h4 className="date-year">{props.time}</h4>
+                <h4 className="topics">{props.title}</h4>
+                <h5 className="company-name"> {props.company}</h5>
+                <h6 className="attendees-number">Attendees:{props.attend}</h6>
+                <button className="btn5" onClick={handleClick}>
+                  Read More...
+                </button>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div>
+              <img
+                className="webinar-img"
+                src={props.img}
+                alt="Trader selling Goods"
+                width="100%"
+                height="140px"
+              />
+              <div className="text-element">
+                <h4 className="date-year">{props.time}</h4>
+                <h4 className="topics">{props.title}</h4>
+                <h5 className="company-name"> {props.company}</h5>
+                <h6 className="attendees-number">Attendees:{props.attend}</h6>
+                <button className="btn5" onClick={handleClick}>
+                  Read More...
+                </button>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div>
+              <img
+                className="webinar-img"
+                src={props.img}
+                alt="Trader selling Goods"
+                width="100%"
+                height="140px"
+              />
+              <div className="text-element">
+                <h4 className="date-year">{props.time}</h4>
+                <h4 className="topics">{props.title}</h4>
+                <h5 className="company-name"> {props.company}</h5>
+                <h6 className="attendees-number">Attendees:{props.attend}</h6>
+                <button className="btn5" onClick={handleClick}>
+                  Read More...
+                </button>
+              </div>
+            </div>
+          </Item>
+          <Item>
+              <div>
+              <img
+                className="webinar-img"
+                src={props.img}
+                alt="Trader selling Goods"
+                width="100%"
+                height="140px"
+              />
+              <div className="text-element">
+                <h4 className="date-year">{props.time}</h4>
+                <h4 className="topics">{props.title}</h4>
+                <h5 className="company-name"> {props.company}</h5>
+                <h6 className="attendees-number">Attendees:{props.attend}</h6>
+                <button className="btn5" onClick={handleClick}>
+                  Read More...
+                </button>
+              </div>
+            </div>
+		   </Item>
+        </Carousel>
+      </div>
+    </>
+  );
 }
 
 

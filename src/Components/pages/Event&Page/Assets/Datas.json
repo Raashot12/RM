@@ -1,0 +1,23 @@
+[
+  {
+	  "topic": " BERT-based Open Domain Question Answering...",
+	  "institute": "ODSC Lagos Data Science ",
+	"attendees": "+43",
+	"date": "TUE, OCT 20, 5:00 PM GMT+1",
+	"type": "Online event"
+  },
+  {
+	"topic": "Mistakes to Avoid when Buying Land",
+	"institute": "Real Estate Chamber of Commerce",
+	"attendees": "+3",
+	"date": "TUE, OCT 18, 1:00 PM GMT+1",
+	"type": "Online event"
+},
+{
+	"topic": "Lunch & Learn- Streamlining feature...",
+	"institute": "Data Science Festival - Lagos",
+	"attendees": "+9",
+	"date": "TUE, NOV 18, 1:00 PM GMT+1",
+	"type": "Online event"
+}
+]

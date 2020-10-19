@@ -142,7 +142,8 @@ img:-webkit-any-link{
     text-align: center;
     padding: 2rem;
     width: 100%;
-    display: table;
+	display: table;
+	color: white;
   }
 
   .nav-links:hover {
@@ -258,6 +259,7 @@ bottom: 0.2rem;
 /* bottom: 0.1rem; */
 top:0.1rem;
 width: 100px;
+margin-right: 1rem
 }
 .btn2:hover {
   padding: 6px 18px;
@@ -331,4 +333,19 @@ width: 100px;
 .btn {
     display: none;
   }
+}
+
+@media screen and (max-width: 960px){
+.btn2 {
+  display: none;
+}
+.btn2:hover {
+  display: none;
+}
+
+.btn {
+    display: none;
+  }
+
+
 }

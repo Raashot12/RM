@@ -1,6 +1,6 @@
 import React from 'react'
 import './Filter.css';
-import SliderBusinessCareer from './Business & Careers/Slider';
+// import SliderBusinessCareer from './Business & Careers/Slider';
 import SliderBeautyFashion from './Beauty & Fashion/Slider';
 import SliderTeachScience  from "./Tech & Science/Slider"
 import 'date-fns';
@@ -65,7 +65,7 @@ export default function  Filter() {
 		</MuiPickersUtilsProvider>
 		
 		<SliderBeautyFashion/>
-		<SliderBusinessCareer />
+		{/* <SliderBusinessCareer /> */}
 				< SliderTeachScience/>
 		</section>
 		</>

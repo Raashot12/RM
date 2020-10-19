@@ -1,12 +1,11 @@
 .footer-parent{
-	background: url(./header-bg.svg);
+	/* background: url(./header-bg.svg); */
 	color:whitesmoke;
 	opacity: 8;
 	width:100%;
 	margin: 0;
 	height: 468px;
 	background-color:  #0066F5;
-	
 }
 .footer-parent2{
 
@@ -73,7 +72,7 @@
 @media screen and (max-width: 1024px){
 
 .footer-parent{
-		background: url(./header-bg.svg);
+		/* background: url(./header-bg.svg); */
 	color:  whitesmoke;
 	width:100%;
 	margin: 0;
@@ -285,7 +284,7 @@
 	display: none;
 }
 .footer-parent{
-	background: url(./header-bg.svg);
+	/* background: url(./header-bg.svg); */
 	color: #ffffff;
 	width:100%;
 	margin: 0;
@@ -327,4 +326,3 @@ border-bottom: 1px solid seashell;
 }
 
 }
-

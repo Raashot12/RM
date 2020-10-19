@@ -127,18 +127,14 @@ transform: translate(-50% -50%);
 .btn-header a {
   padding: 8px 20px;
   border-radius: 4px;
-  outline: none;
-  border: none;
-  height: 3rem;
-  font-size: 1rem;
-  color: #fff;
+  
+    color: #fff;
   cursor: pointer;
   text-align: center;
-  background-color:  #0066F5;
+
 	position: absolute;
 	left: 2.3rem;
-top:24rem;
-width: 12rem;
+top:20rem;
 list-style-type: none;
 
 }

@@ -12,6 +12,8 @@ import contacts from './Data'
 			topics={contact.topic}
 			company={contact.companyName}
 			attend={contact.attendeesNumber}
+				time={contact.time}
+				title= {contact.title}
 			/>
 		</div>
 	)
@@ -21,17 +23,17 @@ import contacts from './Data'
 
 
 export default function SliderTeachScience() {
-	return (
-		<div>
-			<div className='parent--container'>
-			<li className='first-item-first'>Tech & Science</li>
-			<li className='first-item-second'>
-				<BrowserRouter>
-					<Link to='/see-all'>See all</Link>
-				</BrowserRouter>
-			</li>
-		</div>
-		{contacts.map(createCard)}
-		</div>
-	)
+  return (
+    <div>
+      <div className="parent--container">
+        <li className="first-item-first">Tech & Science</li>
+        <li className="first-item-second">
+          <BrowserRouter>
+            <Link to="/see-all">See all</Link>
+          </BrowserRouter>
+        </li>
+      </div>
+      {contacts.map(createCard)}
+    </div>
+  );
 }

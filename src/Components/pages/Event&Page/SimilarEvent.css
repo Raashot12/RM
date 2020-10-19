@@ -1,0 +1,90 @@
+
+
+.similar-event-container{
+	background: url(./header-bg.svg);
+	width: 342.66px;
+	height:268.81px;
+	margin-bottom: 2rem;
+	border-radius: 4px;
+	box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px){
+	.similar-event-container{
+	background: url(./header-bg.svg);
+	width: 320.66px;
+	height:268.81px;
+	margin-bottom: 2rem;
+	border-radius: 4px;
+	box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+	
+
+	}
+	
+}
+@media screen and (max-width: 1024px){
+	.similar-event-container{
+	background-color: whitesmoke;
+	width: 320.66px;
+	height:268.81px;
+	margin-bottom: 2rem;
+	border-radius: 4px;
+	box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+	
+
+	}
+	
+}
+
+.similar-event-container:hover{
+		box-shadow: 13px 13px 15px -5px rgba(0, 0, 0, 0.1);
+}
+.container-sub{
+	padding: 1rem;
+}
+
+.container-for-attendees-attendbtn{
+	display: flex;
+}
+.number-of-attend{
+	margin-right: 5rem;
+}
+
+.attend-btn{
+	background-color: transparent;
+color: #0066F5;
+border: 1px solid #0066F5;
+width: 5rem;
+height: 2rem;
+outline: none;
+border: none;
+border: 1px solid #0066F5;
+border-radius: 3px;
+font-weight: bold;
+}
+
+.attend-btn:hover{
+background-color: transparent;
+border: 1px solid red;
+color: red;
+border-radius: 3px;
+}
+
+.similar-date{
+	color:#0066F5;
+	font-weight: bold;
+}
+
+.similar-topic{
+	color: #13002D;
+	font-size: x-large;
+	
+}
+
+.other-see-all{
+		display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 1rem;
+}

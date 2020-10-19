@@ -13,19 +13,22 @@
 	padding-top: 1.6rem;
 }
 .text-element h4{
-	color: #6780A5
-	
+	color: #6780A5;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	
 }
 .text-element h5{
-	font-family: 'Courgette', cursive;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: small;
 	margin: 0;
+	color: #212121;
 }
 .text-element h6{
-	font-family: 'Dancing Script', cursive;
-	font-size: medium;
-	margin: 0.8rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: small;
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+	color: #212121;
 }
 
 	
@@ -34,10 +37,9 @@
   outline-style: none;
   border: none;
   height: 2rem;
-  color:  #000000;
-  font-family: 'Dancing Script', cursive;
-  font-weight: 600;
-  font-size: larger;
+  color:  #212121;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
   margin-bottom: .5rem;
  align-content: center;
  transition-property: background-color color border-radius 3s ease-in-out 1s;
