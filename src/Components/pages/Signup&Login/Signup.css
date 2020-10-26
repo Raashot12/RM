@@ -1,6 +1,4 @@
-.signupwrapper{
-	background: url(./header-bg.svg);
-}
+
 
 
 
@@ -254,6 +252,3 @@ align-content: center;
 	cursor: pointer;
 }
 
-.mainwrapper{
-	min-height: 100vh;
-}
