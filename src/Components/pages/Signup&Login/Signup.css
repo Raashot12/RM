@@ -253,3 +253,7 @@ align-content: center;
 	color: blue;
 	cursor: pointer;
 }
+
+.mainwrapper{
+	min-height: 100vh;
+}

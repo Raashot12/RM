@@ -40,7 +40,7 @@ import validates from "./validatesignup"
 
 		return (
       <>
-        <main style={{height: "100%"}}>
+        <main className="mainwrapper">
           <div className="signupwrapper">
             <Navbar />
             <section className="signup-parent">

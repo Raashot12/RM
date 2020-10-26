@@ -31,7 +31,7 @@ const  Login = ( )=>{
 
 		return (
       <>
-        <div>
+        <div className="mainwrapper">
           <div className="signupwrapper">
             <Navbar />
             <section className="signup-parent">
