@@ -43,7 +43,7 @@ import validates from "./validatesignup"
         <main className="mainwrapper">
           <div className="signupwrapper">
             <Navbar />
-            <section className="signup-parent  mainwrapper">
+            <section className="signup-parent ">
               <div className="loginForm">
                 <img src={logo} className="App-logo" alt="logo" />
                 <form onSubmit={handleSubmit} className="form_parent">

@@ -14,7 +14,7 @@
 	margin: 60px auto;
 	position: relative;	
 	box-shadow: 1.3rem 1.3rem 1.3rem 0 whitesmoke;
-	min-height: 100vh;
+
 }
 
 .loginForm span {
@@ -253,3 +253,6 @@ align-content: center;
 	cursor: pointer;
 }
 
+.mainwrapper	{
+min-height: 100vh;
+}
