@@ -14,13 +14,14 @@
 	margin: 60px auto;
 	position: relative;	
 	box-shadow: 1.3rem 1.3rem 1.3rem 0 whitesmoke;
-	
+	min-height: 100vh;
 }
 
 .loginForm span {
     width: 100%;
     margin-top: 20px;
-    display: flex;
+	display: flex;
+
     justify-content: center;
     position: relative;
 }
