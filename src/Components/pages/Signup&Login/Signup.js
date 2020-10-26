@@ -40,9 +40,9 @@ import validates from "./validatesignup"
 
 		return (
       <>
+        <Navbar />
         <main className="mainwrapper">
           <div className="signupwrapper">
-            <Navbar />
             <section className="signup-parent ">
               <div className="loginForm">
                 <img src={logo} className="App-logo" alt="logo" />

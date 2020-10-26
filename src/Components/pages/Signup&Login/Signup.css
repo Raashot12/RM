@@ -11,7 +11,7 @@
 	flex-direction: column;
 	justify-content: center;
 	max-width: 500px;
-	margin: 60px auto;
+	margin: 100px auto;
 	position: relative;	
 	box-shadow: 1.3rem 1.3rem 1.3rem 0 whitesmoke;
 
@@ -256,3 +256,4 @@ align-content: center;
 .mainwrapper	{
 min-height: 100vh;
 }
+
