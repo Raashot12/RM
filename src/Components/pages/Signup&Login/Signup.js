@@ -201,10 +201,10 @@ import validates from "./validatesignup"
                   <p className="terms getstarted"> Forget password ?</p>
                 </Link>
               </div>
-              <Footer />
             </section>
           </div>
         </main>
+        <Footer />
       </>
     );
 } 
