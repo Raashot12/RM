@@ -31,10 +31,10 @@ const  Login = ( )=>{
 
 		return (
       <>
-        <div>
+        <div className="mainwrapper">
           <div className="signupwrapper">
             <Navbar />
-            <section className="signup-parent  mainwrapper">
+            <section className="signup-parent ">
               <div className="loginForm">
                 <img src={logo} className="App-logo" alt="logo" />
                 <div className="welcome">

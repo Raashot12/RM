@@ -40,7 +40,7 @@ import validates from "./validatesignup"
 
 		return (
       <>
-        <main>
+        <main className="mainwrapper">
           <div className="signupwrapper">
             <Navbar />
             <section className="signup-parent  mainwrapper">

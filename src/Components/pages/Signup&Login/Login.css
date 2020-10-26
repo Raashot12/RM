@@ -1,6 +1,7 @@
 
 .signup-parent{
 	background: url(./header-bg.svg);
+	min-height: 100vh;
 }
 
 .welcome h3{
