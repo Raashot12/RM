@@ -15,8 +15,8 @@
 	max-width: 500px;
 	margin: 60px auto;
 	position: relative;	
-	box-shadow: 1.3rem 1.3rem 1.3rem 1.3rem whitesmoke;
-	max-height: 1300px;
+	box-shadow: 1.3rem 1.3rem 1.3rem 0 whitesmoke;
+	
 }
 
 .loginForm span {
